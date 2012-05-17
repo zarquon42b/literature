@@ -81,51 +81,6 @@
   timestamp = {2010.04.22}
 }
 
-@ARTICLE{Abdi2010,
-  author = {Abdi, Hervé},
-  title = {Partial least squares regression and projection on latent structure
-	regression (PLS Regression)},
-  journal = {Wiley Interdisciplinary Reviews: Computational Statistics},
-  year = {2010},
-  volume = {2},
-  pages = {97--106},
-  number = {1},
-  abstract = {Partial least squares (PLS) regression (a.k.a. projection on latent
-	structures) is a recent technique that combines features from and
-	generalizes principal component analysis (PCA) and multiple linear
-	regression. Its goal is to predict a set of dependent variables from
-	a set of independent variables or predictors. This prediction is
-	achieved by extracting from the predictors a set of orthogonal factors
-	called latent variables which have the best predictive power. These
-	latent variables can be used to create displays akin to PCA displays.
-	The quality of the prediction obtained from a PLS regression model
-	is evaluated with cross-validation techniques such as the bootstrap
-	and jackknife. There are two main variants of PLS regression: The
-	most common one separates the roles of dependent and independent
-	variables; the second one—used mostly to analyze brain imaging data—gives
-	the same roles to dependent and independent variables. Copyright
-	© 2010 John Wiley & Sons, Inc.For further resources related to this
-	article, please visit the WIREs website.},
-  doi = {10.1002/wics.51},
-  file = {:PDF/abdi-pls.pdf:PDF},
-  issn = {1939-0068},
-  keywords = {partial least squares, projection to latent structures, principal
-	component analysis, multicollinearity, singular value decomposition},
-  owner = {schlager},
-  publisher = {John Wiley \& Sons, Inc.},
-  timestamp = {2012.04.26},
-  url = {http://dx.doi.org/10.1002/wics.51}
-}
-
-@MANUAL{Abdi2007a,
-  title = {Partial Least Square Regression},
-  author = {Abdi, Hervé},
-  year = {2007},
-  file = {:PDF/Abdi-PLSR2007-pretty.pdf:PDF;:PDF/abdi-pls.pdf:PDF},
-  owner = {schlager},
-  timestamp = {2012.04.26}
-}
-
 @ARTICLE{Acharya2010,
   author = {Acharya, A.B. and Prabhu, S. and Muddapur, M.V.},
   title = {Odontometric sex assessment from logistic regression analysis},
@@ -2579,7 +2534,6 @@
 	of Landmark Points},
   year = {1996},
   note = {719106 405-410},
-  file = {:PDF/Bookstein-Visualizing Group Differences.pdf:PDF},
   publisher = {Springer-Verlag}
 }
 
@@ -5233,25 +5187,6 @@
   timestamp = {2010.04.22}
 }
 
-@ARTICLE{Damon1972,
-  author = {Damon, Albert and Seltzer, Carl C and Stoudt, Howard W and Bell,
-	Benjamin},
-  title = {Age and Physique in Healthy White Veterans at Boston},
-  journal = {Journal of Gerontology},
-  year = {1972},
-  volume = {27},
-  pages = {202--208},
-  number = {2},
-  month = apr,
-  doi = {10.1093/geronj/27.2.202},
-  file = {:PDF/J Gerontol-1972-Damon-202-8.pdf:PDF},
-  issn = {0022-1422,},
-  lccn = {0049},
-  owner = {schlager},
-  timestamp = {2012.03.26},
-  url = {http://geronj.oxfordjournals.org/content/27/2/202}
-}
-
 @ARTICLE{Dang-Trang2010,
   author = {Dang-Trang, K.-D. and Dedouit, F. and Joffre, F. and Rougé, D. and
 	Rousseau, H. and Telmon, N.},
@@ -5969,50 +5904,6 @@
   volume = {131},
   pages = {432-443},
   keywords = {Geometric morphometrics Anwendungen}
-}
-
-@ARTICLE{Edelstein1996,
-  author = {Edelstein, David R},
-  title = {Aging of the Normal Nose in Adults},
-  journal = {The Laryngoscope},
-  year = {1996},
-  volume = {106},
-  pages = {1--25},
-  number = {S81},
-  month = sep,
-  abstract = {Like other organs, the nose changes as the body ages. A review of
-	the literature reveals a basic understanding of the aging process
-	in the nose but a paucity of documentation and few organized studies.
-	This study was designed to identify systematically the age-related
-	changes in the normal, nondiseased adult nose. A nasal-sinus laboratory
-	was created, and a computerized patient database was developed. Four
-	separate investigations were conducted. First, 111 subjects ranging
-	in age from 21 to 94 years of age were studied prospectively using
-	135 variables. The following data were collected: history, symptoms,
-	physical examination, rhinomanometry, ciliary beat frequency, smell
-	testing, and incentive spirometry. Second, photographs of a separate
-	group of 105 subjects 20 to 86 years of age were studied to ascertain
-	the facial cephalometric changes that occur with aging. Third, a
-	histopathologic examination of the nasal septum was performed in
-	20 additional subjects to evaluate the cellular changes that accompany
-	aging. Finally, an epidemiologic study analyzing the prevalence of
-	various nasal complaints by age was conducted, based on a review
-	of more than 11,000 patient charts from surgeries and office visits.
-	A number of specific age-related changes in the nose were identified,
-	including an increased likelihood of certain nasal complaints, a
-	pattern of increasing airflow resistance, and a decrease in physical
-	abnormalities in the nasopharynx. The appearance of the nose, as
-	measured by the nasolabial angle and the height/length ratio, was
-	also found to change with age. Laryngoscope, 106:(suppl 81):1-25,
-	1996},
-  copyright = {Copyright © 1996 The Triological Society},
-  doi = {10.1097/00005537-199609001-00001},
-  file = {:PDF/Ovid  Aging of the Normal Nose in Adults..html:URL},
-  issn = {1531-4995},
-  lccn = {0046},
-  owner = {schlager},
-  timestamp = {2012.03.26},
-  url = {http://ovidsp.tx.ovid.com/sp-3.5.1a/ovidweb.cgi?&S=BLOAFPGNEIDDPIHJNCALNFIBHGCFAA00&Full%20Text=L|S.sh.34.36|0|00005537-199609001-00001}
 }
 
 @ARTICLE{Edgar2009,
@@ -7518,43 +7409,6 @@
   timestamp = {2010.04.22}
 }
 
-@ARTICLE{Garvin2012,
-  author = {Garvin, Heather M. and Ruff, Christopher B.},
-  title = {Sexual dimorphism in skeletal browridge and chin morphologies determined
-	using a new quantitative method},
-  journal = {Am. J. Phys. Anthropol.},
-  year = {2012},
-  pages = {n/a--n/a},
-  abstract = {Qualitative methods of describing sexual dimorphism in discrete cranial
-	traits have been criticized for their subjectivity and statistical
-	limitations. However, researchers have yet to be able to accurately
-	capture the morphology of these individual traits using traditional
-	metric techniques. This article presents a method to quantify morphological
-	variation in the skeletal browridge and chin using 3D surface laser
-	scans. Browridge and chin regions are isolated from the skull using
-	objectively defined landmarks and planes. Region areas and volumes
-	are used to quantify absolute and relative size, while semilandmarks
-	along transects are used for more detailed morphometric analyses.
-	An intraobserver error study indicates high repeatability of the
-	method. Application of the method is demonstrated on a sample of
-	US males and females of black and white ancestries. Results suggest
-	significant effects of both sex and ancestry on brow and chin morphologies
-	and are consistent with traditional qualitative descriptions. Our
-	results indicate that the method can accurately and reliably quantify
-	browridge and chin morphologies, providing a tool to objectively
-	describe and statistically analyze these traditionally qualitative
-	discrete cranial traits. Am J Phys Anthropol, 2012. Â© 2012 Wiley
-	Periodicals, Inc.},
-  file = {:PDF/GarvinRuff-SexDimorphoSkeletalBrowridgeChin.pdf:PDF},
-  issn = {1096-8644},
-  keywords = {sex determination, supraorbital torus, mental eminence, laser scanning,
-	morphometric},
-  owner = {ruedell},
-  publisher = {Wiley Subscription Services, Inc., A Wiley Company},
-  timestamp = {2012.02.28},
-  url = {http://dx.doi.org/10.1002/ajpa.22036}
-}
-
 @ARTICLE{Gatliff1979,
   author = {Gatliff, B.P. and Snow, C.C.},
   title = {From skull to visage},
@@ -8296,19 +8150,6 @@
   keywords = {Lehrbuch Menschenkunde Anthropologie}
 }
 
-@BOOK{Grupe,
-  title = {Anthropologie Einführendes Lehrbuch},
-  author = {Grupe, Gisela and Christiansen, Kerrin and Schröder, Inge and {Wittwer-Backofen},
-	Ursula},
-  series = {{Springer-Lehrbuch}},
-  note = {{DOI:} 10.1007/978-3-642-25153-5},
-  file = {:PDF/Wittwer-lehbuch.pdf:PDF},
-  lccn = {0018},
-  owner = {schlager},
-  timestamp = {2012.05.07},
-  url = {http://www.springerlink.com/content/978-3-642-25153-5?sa_campaign=email/event/bookAuthor/congratulation#section=1064970&page=3&locus=33}
-}
-
 @ARTICLE{Groening2010,
   author = {Gröning, Flora and Liu, Jia and Fagan, Michael J. and O'Higgins,
 	Paul},
@@ -8528,69 +8369,6 @@
   file = {:PDF/Guyomarch-AnatomicalPlacementHumaneyeball.pdf:PDF},
   owner = {ruedell},
   timestamp = {2011.03.07}
-}
-
-@ARTICLE{Guyomarch2012,
-  author = {Guyomarc'h, Pierre and Dutailly, Bruno and Couture, Christine and
-	Coqueugniot, Héléne},
-  title = {Anatomical Placement of the Human Eyeball in the Orbits. Validation
-	Using CT Scans of Living Adults and Prediction for Facial Approximation*},
-  journal = {Journal of Forensic Sciences},
-  year = {2012},
-  pages = {no--no},
-  abstract = {Abstract: Accuracy of forensic facial approximation and superimposition
-	techniques relies on the knowledge of anatomical correlations between
-	soft and hard tissues. Recent studies by Stephan and collaborators
-	(6,8,10) reviewed traditional guidelines leading to a wrong placement
-	of the eyeball in the orbit. As those statements are based on a small
-	cadaver sample, we propose a validation of these findings on a large
-	database (n = 375) of living people. Computed tomography scans of
-	known age and sex subjects were used to collect landmarks on three-dimensional
-	surfaces and DICOM with TIVMI. Results confirmed a more superior
-	and lateral position of the eyeball relatively to the orbital rims.
-	Orbital height and breadth were used to compute regression formulae
-	and proportional placement using percentages to find the most probable
-	position of the eyeball in the orbit. A size-related sexual dimorphism
-	was present but did not impact on the prediction accuracy.},
-  file = {:PDF/GuyomarchEtAl-AnatomicalPlacementHumanEyeball.pdf:PDF},
-  issn = {1556-4029},
-  keywords = {forensic science, facial reconstruction, facial reproduction, computed
-	tomography, Oculus, TIVMI},
-  owner = {ruedell},
-  publisher = {Blackwell Publishing Ltd},
-  timestamp = {2012.03.06},
-  url = {http://dx.doi.org/10.1111/j.1556-4029.2012.02075.x}
-}
-
-@ARTICLE{Guyomarch2012a,
-  author = {Guyomarc'h, Pierre and Stephan, Carl N.},
-  title = {The Validity of Ear Prediction Guidelines Used in Facial Approximation},
-  journal = {Journal of Forensic Sciences},
-  year = {2012},
-  pages = {no--no},
-  __markedentry = {[ruedell:]},
-  abstract = {Abstract:This study examined eight previously published ear prediction
-	methods by Welcker, Gerasimov, Fedosyutkin and Nainys, and Broadbent
-	and Mathews. Computed tomography scans of 78 living adults (n1) did
-	not support any of these previously published recommendations. Free
-	earlobes were found to accompany protruding supramastoid crests (Pearson < 0.05);
-	and ear length [l] and width [w] differed by sex (pÂ <Â 0.05), correlated
-	with age (rÂ =Â 0.38[l]; 0.32[w]), and correlated with facial height
-	(rÂ =Â 0.37[l]; 0.30[w]). New regression equations (for ear length
-	and width) were generated using these variables in several samples
-	and, where possible, cross-validated using independent data (n1Â =Â 78,
-	n2Â =Â 2190, n3Â =Â 1328, n4Â =Â 1010, and n5Â =Â 47). As a result
-	of these analyses, four valid and tested methods for ear prediction
-	were identified, but large degrees of error continue to make accurate
-	prediction of the ear, from the skull, problematic.},
-  file = {:PDF/GuyomarckStephan-ValidityEarPrediction.pdf:PDF},
-  issn = {1556-4029},
-  keywords = {forensic science, facial reconstruction, facial reproduction, external
-	ear, pinna, skull},
-  owner = {ruedell},
-  publisher = {Blackwell Publishing Ltd},
-  timestamp = {2012.05.17},
-  url = {http://dx.doi.org/10.1111/j.1556-4029.2012.02181.x}
 }
 
 @ARTICLE{Guyot2006,
@@ -9097,6 +8875,7 @@
   pages = {115--126},
   number = {1},
   month = oct,
+  __markedentry = {[ruedell:6]},
   abstract = {Regions in three-dimensional magnetic resonance (MR) brain images
 	can be classified using protocols for manually segmenting and labeling
 	structures. For large cohorts, time and expertise requirements make
@@ -9121,7 +8900,7 @@
 	segmentations combined. We demonstrate a practicable procedure that
 	exceeds the accuracy of previous automatic methods and can compete
 	with manual delineations.},
-  file = {:PDF/HeckemannEtAl-AutomaticAnatBrainSegmentation.pdf:PDF},
+  file = {:PDF/HeckemannEtAl-AutomaticAnatBrainSegmentation:PDF},
   issn = {1053-8119},
   owner = {ruedell},
   timestamp = {2012.02.23},
@@ -11115,39 +10894,6 @@
   owner = {guyomarch},
   shorttitle = {Weighing bitemark evidence},
   timestamp = {2010.04.22}
-}
-
-@ARTICLE{Kim2012,
-  author = {Kim, Deog-Im and Lee, U-Young and Park, Sang-Ouk and Kwak, Dae-Soon
-	and Han, Seung-Ho},
-  title = {Identification Using Frontal Sinus by Three-Dimensional Reconstruction
-	from Computed Tomography*},
-  journal = {Journal of Forensic Sciences},
-  year = {2012},
-  pages = {no--no},
-  abstract = {Abstract:â?? Radiographs and computed tomography (CT) images have
-	been increasingly applied and accepted in forensic sciences. Along
-	with radiographs and CT images, the frontal sinus is often used for
-	the individual identification because of its unique and unchangeable
-	characteristics. The purpose of this study is to define the usefulness
-	of three-dimensional (3-D) images of the frontal sinus for identification.
-	CT images from 119 Korean cadavers were built up for 3-D reconstruction
-	and surveyed with 15 measurements. The total volume of the sinus,
-	some nonmetric characteristics, and the bilateral asymmetry index
-	in men differed significantly from those in women (pÂ <Â 0.05). The
-	digit codes, six sections and 10-digit number, were almost able to
-	accurately identify individuals (98%). This study showed a statistical
-	difference between the sexes and classified the fused and prominent
-	middle sinuses for the first time. This proposed method for identification
-	is more accurate than those used in other studies.},
-  file = {:PDF/KimEtAl-IdentificationUsingFrontalSinus.PDF:PDF},
-  issn = {1556-4029},
-  keywords = {forensic science, forensic anthropology, frontal sinus, identification,
-	three-dimension, computed tomography, Korean},
-  owner = {ruedell},
-  publisher = {Blackwell Publishing Ltd},
-  timestamp = {2012.05.07},
-  url = {http://dx.doi.org/10.1111/j.1556-4029.2012.02185.x}
 }
 
 @ARTICLE{Kim2006,
@@ -13798,52 +13544,6 @@
   timestamp = {2010.04.22}
 }
 
-@BOOK{Martens1992,
-  title = {Multivariate Calibration},
-  publisher = {John Wiley and Sons},
-  year = {1992},
-  author = {Martens, Harald and Naes, Tormod},
-  month = aug,
-  abstract = {Multivariate Calibration Harald Martens, Chemist, Norwegian Food Research
-	Institute, Aas, Norway and Norwegian Computing Center, Oslo, Norway
-	Tormod N?s, Statistician, Norwegian Food Research Institute, Aas,
-	Norway The aim of this inter-disciplinary book is to present an up-to-date
-	view of multivariate calibration of analytical instruments, for use
-	in research, development and routine laboratory and process operation.
-	The book is intended to show practitioners in chemistry and technology
-	how to extract the quantitative and understandable information embedded
-	in non-selective, overwhelming and apparently useless measurements
-	by multivariate data analysis. Multivariate calibration is the process
-	of learning how to combine data from several channels, in order to
-	overcome selectivity problems, gain new insight and allow automatic
-	outlier detection. Multivariate calibration is the basis for the
-	present success of high-speed {Near-Infrared} {(NIR)} diffuse spectroscopy
-	of intact samples. But the technique is very general: it has shown
-	similar advantages in, for instance, {UV}, Vis, and {IR} spectrophotometry,
-	(transmittance, reflectance and fluorescence), for x-ray diffraction,
-	{NMR}, {MS}, thermal analysis, chromatography {(GC}, {HPLC)} and
-	for electrophoresis and image analysis (tomography, microscopy),
-	as well as other techniques. The book is written at two levels: the
-	main level is structured as a tutorial on the practical use of multivariate
-	calibration techniques. It is intended for university courses and
-	self-study for chemists and technologists, giving one complete and
-	versatile approach, based mainly on data compression methodology
-	in self-modelling {PLS} regression, with considerations of experimental
-	design, data pre-processing and model validation. A second, more
-	methodological, level is intended for statisticians and specialists
-	in chemometrics. It compares several alternative calibration methods,
-	validation approaches and ways to optimize the models. The book also
-	outlines some cognitive changes needed in analytical chemistry, and
-	suggests ways to overcome some communication problems between statistics
-	and chemistry and technology.},
-  isbn = {9780471930471},
-  keywords = {Mathematics / Probability \& Statistics / Multivariate Analysis, Science
-	/ Chemistry / Analytic, Science / Chemistry / General},
-  owner = {schlager},
-  timestamp = {2012.05.04},
-  url = {http://books.google.de/books?id=6lVcUeVDg9IC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false}
-}
-
 @ARTICLE{Martin2009,
   author = {Martin, D.C. and Danforth, M.E.},
   title = {An analysis of secular change in the human mandible over the last
@@ -14045,6 +13745,10 @@
   series = {Lecture Notes in Earth Sciences},
   pages = {307-323},
   note = {10.1007/978-3-540-95853-6_14},
+<<<<<<< HEAD
+  __markedentry = {[ruedell:]},
+=======
+>>>>>>> 97ce65a6a0d10dcd580eb0d59dd8b85e156bf65c
   abstract = {Ceramics are one of the most documented materials in the archaeological
 	interventions. The documentation and the analysis of the pottery
 	shapes allow the knowledge of the chronology and the functionality
@@ -14485,39 +14189,6 @@
   owner = {ruedell},
   timestamp = {2010.12.02},
   url = {http://www.sciencedirect.com/science/article/B6WJ1-51H5HCW-1/2/987f23ebeedb6e3e8c8ccb9197746608}
-}
-
-@ARTICLE{Mevik2004,
-  author = {Mevik, Bjørn-Helge and Cederkvist, Henrik René},
-  title = {Mean squared error of prediction (MSEP) estimates for principal component
-	regression (PCR) and partial least squares regression (PLSR)},
-  journal = {Journal of Chemometrics},
-  year = {2004},
-  volume = {18},
-  pages = {422--429},
-  number = {9},
-  abstract = {This paper presents results from simulations based on real data, comparing
-	several competing mean squared error of prediction (MSEP) estimators
-	on principal component regression (PCR) and partial least squares
-	regression (PLSR): leave-one-out cross-validation, K-fold and adjusted
-	K-fold cross-validation, the ordinary bootstrap estimate, the bootstrap
-	smoothed cross-validation (BCV) estimate and the 0.632 bootstrap
-	estimate. The overall performance of the estimators is compared in
-	terms of their bias, variance and squared error. The results indicate
-	that the 0.632 estimate and leave-one-out cross-validation are preferable
-	when one can afford the computation. Otherwise adjusted 5- or 10-fold
-	cross-validation are good candidates because of their computational
-	efficiency. Copyright © 2005 John Wiley & Sons, Ltd.},
-  doi = {10.1002/cem.887},
-  file = {:PDF/Mevik-MSEP-PLSR.pdf:PDF},
-  issn = {1099-128X},
-  keywords = {mean squared error of prediction (MSEP), cross-validation, adjusted
-	cross-validation, bootstrap, 0.632 estimate, principal component
-	regression (PCR), partial least squares regression (PLSR)},
-  owner = {schlager},
-  publisher = {John Wiley \& Sons, Ltd.},
-  timestamp = {2012.05.04},
-  url = {http://dx.doi.org/10.1002/cem.887}
 }
 
 @ARTICLE{Mevik:Wehrens:2007:JSSOBK:v18i02,
@@ -15290,42 +14961,6 @@
   timestamp = {2010.04.22}
 }
 
-@ARTICLE{Murphy2012,
-  author = {Murphy, Michael and Drage, Nicholas and Carabott, Romina and Adams,
-	Catherine},
-  title = {Accuracy and Reliability of Cone Beam Computed Tomography of the
-	Jaws for Comparative Forensic Identification: A Preliminary Study*},
-  journal = {Journal of Forensic Sciences},
-  year = {2012},
-  pages = {no--no},
-  abstract = {Abstract: Conventional computed tomography is an emerging modality
-	in forensic identification but is not sufficiently accurate for use
-	in dental identification primarily because of problems with metallic
-	dental restoration induced streak artifact. In this study, the accuracy
-	and reliability of recording forensic information from cone beam
-	computed tomography (CBCT) scans of the jaws when compared to conventional
-	panoramic radiographs has been analyzed under experimental conditions.
-	Information could be recorded with near-perfect repeatability and
-	reproducibility. Information could also be recorded accurately, the
-	sensitivity being 96.6% and specificity being 98.4% . The metal dental
-	restoration induced streak artifact was at a level that permitted,
-	in most cases, accurate observations. This is considered an important
-	step in validating CBCT as a tool in comparative dental identification
-	of bodies. It may have a role in mass fatalities and in chemical,
-	biological, radiological, and nuclear incidents, but further studies
-	are required to assess the feasibility of this.},
-  file = {:PDF/MurphyEtAl-AccuracyReliabilityConeBeamCTJaws.pdf:PDF},
-  issn = {1556-4029},
-  keywords = {forensic science, forensic odontology, cone beam computed tomography,
-	dental identification, mass fatality, disaster victim identification,
-	chemical incidents, biological incidents, radiological incidents,
-	nuclear incidents},
-  owner = {ruedell},
-  publisher = {Blackwell Publishing Ltd},
-  timestamp = {2012.03.06},
-  url = {http://dx.doi.org/10.1111/j.1556-4029.2012.02076.x}
-}
-
 @PHDTHESIS{Moeller2008,
   author = {Möller, Daniel},
   title = {Die Anthropologische Schädelsammlung Freiburg (Alexander-Ecker-Sammlung):
@@ -15681,21 +15316,6 @@
   timestamp = {2010.04.22}
 }
 
-@BOOK{Naes2002,
-  title = {A User-friendly Guide to Multivariate Calibration and Classification},
-  publisher = {Nir Publications},
-  year = {2002},
-  author = {Næs, Tormod},
-  file = {:PDF/A User-Friendly Guide to Multivariate Calibration - T. Naes, et al., (NIR, 2002) WW.pdf:PDF},
-  isbn = {9780952866626},
-  keywords = {Calibration, Chemistry, Analytic, Chemometrics, Mathematics / Probability
-	\& Statistics / Multivariate Analysis, Multivariate analysis, Near
-	infrared spectroscopy, Science / Chemistry / General, Science / Scientific
-	Instruments},
-  owner = {schlager},
-  timestamp = {2012.05.04}
-}
-
 @ARTICLE{O'Higgins2000,
   author = {O'Higgins, P.},
   title = {The study of morphological variation in the hominid fossil record:
@@ -15838,27 +15458,6 @@
 	Liegen keine Hinweise über die körperliche Verfassung zu Lebzeiten
 	vor, kann die Bandbreite der möglichen Ausprägungen sehr groß sein.
 	Dies soll die vorgestellte Studie verdeutlichen.}
-}
-
-@INPROCEEDINGS{Ohtake2004,
-  author = {Ohtake, Yutaka and Belyaev, Alexander and Seidel, Hans-Peter},
-  title = {Ridge-valley lines on meshes via implicit surface fitting},
-  booktitle = {ACM SIGGRAPH 2004 Papers},
-  year = {2004},
-  series = {SIGGRAPH '04},
-  pages = {609--612},
-  address = {New York, NY, USA},
-  publisher = {ACM},
-  __markedentry = {[ruedell:6]},
-  acmid = {1015768},
-  doi = {10.1145/1186562.1015768},
-  file = {:PDF/OhtakeEtAl-RidgeValleyLinesOnMeshesImplSurfFit.pdf:PDF},
-  keywords = {curvature extrema, implicit surface fitting, ridges},
-  location = {Los Angeles, California},
-  numpages = {4},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://doi.acm.org/10.1145/1186562.1015768}
 }
 
 @ARTICLE{Olivares1998,
@@ -16094,86 +15693,6 @@
   shorttitle = {The role of forensic anthropology in the examination of the Daegu
 	subway disaster},
   timestamp = {2010.04.22}
-}
-
-@ARTICLE{Parr2011,
-  author = {Parr, W.C.H. and Ruto, A. and Soligo, C. and Chatterjee, H.J.},
-  title = {Allometric shape vector projection: A new method for the identification
-	of allometric shape characters and trajectories applied to the human
-	astragalus (talus)},
-  journal = {Journal of Theoretical Biology},
-  year = {2011},
-  volume = {272},
-  pages = {64--71},
-  number = {1},
-  month = mar,
-  abstract = {The surface morphology of the human astragalus (talus) is difficult
-	to represent accurately using landmarks as it is essentially globular
-	in shape. Advances in laser scanning technology allow fast and accurate
-	capture of bone surface morphology. However, methodologies to utilise
-	these new accurate 3D data have not been fully developed. The present
-	study uses canonical sampling of whole surface morphology attained
-	through laser scanning and for the first time applies the technique
-	to analysis of bone morphology. We introduce a new technique for
-	identifying allometric shape characters in whole bone surface morphology.
-	In a sample of adult human astragalus the new technique is successful
-	in identifying and isolating intra-specific allometric shape characters
-	in a bone which typically lacks landmarks and has, consequently,
-	proved difficult to analyse using traditional 3D morphometric methods.},
-  file = {:PDF/ParrEtAl-AllometricShapVectorProjection.pdf:PDF},
-  issn = {0022-5193},
-  keywords = {Scaling, Canonical sampling, Laser scanning, Principal components
-	analysis, Allometry},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://www.sciencedirect.com/science/article/pii/S0022519310006259}
-}
-
-@ARTICLE{Parr2012,
-  author = {Parr, W.C.H. and Wroe, S. and Chamoli, U. and Richards, H.S. and
-	McCurry, M.R. and Clausen, P.D. and McHenry, C.},
-  title = {Toward integration of geometric morphometrics and computational biomechanics:
-	New methods for 3D virtual reconstruction and quantitative analysis
-	of Finite Element Models},
-  journal = {Journal of Theoretical Biology},
-  year = {2012},
-  volume = {301},
-  pages = {1--14},
-  number = {0},
-  month = may,
-  abstract = {The ability to warp three-dimensional (3D) meshes from known biological
-	morphology to fit other known, predicted or hypothetical morphologies
-	has a range of potential applications in functional morphology and
-	biomechanics. One of the most challenging of these applications is
-	Finite Element Analysis (FEA), a potentially powerful non-destructive
-	tool in the prediction of mechanical behaviour. Geometric morphometrics
-	is another typically computer-based approach commonly applied in
-	morphological studies that allows for shape differences between specimens
-	to be quantified and analysed. There has been some integration of
-	these two fields in recent years. Although a number of shape warping
-	approaches have been developed previously, none are easily accessible.
-	Here we present an easily accessed method for warping meshes based
-	on freely available software and test the effectiveness of the approach
-	in FEA using the varanoid lizard mandible as a model. We further
-	present new statistical approaches, strain frequency plots and landmark
-	point strains, to analyse FEA results quantitatively and further
-	integrate FEA with geometric morphometrics. Using strain frequency
-	plots, strain field, bending displacements and landmark point strain
-	data we demonstrate that the mechanical behaviour of warped specimens
-	reproduces that of targets without significant error. The influence
-	of including internal cavity morphology in FEA models was also examined
-	and shown to increase bending displacements and strain magnitudes
-	in FE models. The warping approaches presented here will be useful
-	in a range of applications including the generation and analysis
-	of virtual reconstructions, generic models that approximate species
-	means, hypothetical morphologies and evolutionary intermediaries.},
-  file = {:PDF/ParrEtAl-TowardIntegrationGMCompBiomechanics.pdf:PDF},
-  issn = {0022-5193},
-  keywords = {Finite Element Analysis, Geometric morphometrics, Varanid, Warping,
-	Landmark point},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://www.sciencedirect.com/science/article/pii/S0022519312000409}
 }
 
 @ARTICLE{Paschetta2010,
@@ -16511,42 +16030,6 @@
   file = {:PDF\\PhillipsSmuts-FacialReconsUtiliCTMeasureTissueThickness.pdf:PDF},
   owner = {ruedell},
   timestamp = {2010.04.19}
-}
-
-@ARTICLE{Pierna2009,
-  author = {Juan Antonio Fernández Pierna and Ouissam Abbas and Vincent Baeten
-	and Pierre Dardenne},
-  title = {A Backward Variable Selection method for PLS regression (BVSPLS)},
-  journal = {Analytica Chimica Acta},
-  year = {2009},
-  volume = {642},
-  pages = {89 - 93},
-  number = {1–2},
-  note = {<ce:title>Papers presented at the 11th International Conference on
-	Chemometrics in Analytical Chemistry</ce:title> <ce:subtitle>CAC
-	2008</ce:subtitle>},
-  abstract = {Variable selection has been discussed in many papers and it became
-	an important topic in areas as chemometrics and science in general.
-	Here a backward iterative step-by-step wrapper method is proposed
-	using PLS. The root-mean-square error of prediction (RMSEP) for an
-	independent test set is used as selection criterion to quantify the
-	gain obtained using the selected range of variables. The method has
-	been applied to different data sets and the results obtained revealed
-	that one can improve or at least keep constant the prediction performances
-	of the PLS models compared to the full-spectrum models. Moreover
-	with the advantage that the number of variables is reduced driving
-	to an easier interpretation of the relationship between model and
-	sample composition and/or properties. The aim is not to compare to
-	other variable selection methods but to show that a simple one can
-	improve or at least keep constant the prediction performances of
-	the PLS models by using only a limited number of variables.},
-  doi = {10.1016/j.aca.2008.12.002},
-  file = {:PDF/Pierna-pls-variable-selection.pdf:PDF},
-  issn = {0003-2670},
-  keywords = {Variable selection},
-  owner = {schlager},
-  timestamp = {2012.05.04},
-  url = {http://www.sciencedirect.com/science/article/pii/S0003267008020072}
 }
 
 @ARTICLE{Piga2009,
@@ -16956,16 +16439,6 @@
   timestamp = {2010.04.22}
 }
 
-@MANUAL{Team2010,
-  title = {R: A Language and Environment for Statistical Computing},
-  author = {{R Development Core Team}},
-  organization = {R Foundation for Statistical Computing},
-  address = {Vienna, Austria},
-  year = {2012},
-  note = {{ISBN} 3-900051-07-0},
-  url = {http://www.R-project.org}
-}
-
 @MANUAL{RDevelopmentCoreTeam2011,
   title = {R Language Definition},
   author = {{R Development Core Team}},
@@ -16978,6 +16451,16 @@
   owner = {ruedell},
   timestamp = {2011.10.05},
   url = {http://www.r-project.org/}
+}
+
+@MANUAL{Team2010,
+  title = {R: A Language and Environment for Statistical Computing},
+  author = {{R Development Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  address = {Vienna, Austria},
+  year = {2010},
+  note = {{ISBN} 3-900051-07-0},
+  url = {http://www.R-project.org}
 }
 
 @TECHREPORT{Ragheb2009,
@@ -22752,41 +22235,6 @@
   timestamp = {2010.04.22}
 }
 
-@ARTICLE{W.C.H.2012,
-  author = {W.C.H., Parr and H.J., Chatterjee and C., Soligo},
-  title = {Calculating the axes of rotation for the subtalar and talocrural
-	joints using 3D bone reconstructions},
-  journal = {Journal of Biomechanics},
-  year = {2012},
-  volume = {45},
-  pages = {1103--1107},
-  number = {6},
-  month = apr,
-  abstract = {Orientation of the subtalar joint axis dictates inversion and eversion
-	movements of the foot and has been the focus of evolutionary and
-	clinical studies for a number of years. Previous studies have measured
-	the subtalar joint axis against the axis of the whole foot, the talocrural
-	joint axis and, recently, the principal axes of the talus. The present
-	study introduces a new method for estimating average joint axes from
-	3D reconstructions of bones and applies the method to the talus to
-	calculate the subtalar and talocrural joint axes. The study also
-	assesses the validity of the principal axes as a reference coordinate
-	system against which to measure the subtalar joint axis. In order
-	to define the angle of the subtalar joint axis relative to that of
-	another axis in the talus, we suggest measuring the subtalar joint
-	axis against the talocrural joint axis. We present corresponding
-	3D vector angles calculated from a modern human skeletal sample.
-	This method is applicable to virtual 3D models acquired through surface-scanning
-	of disarticulated â??dryâ?? osteological samples, as well as to 3D
-	models created from CT or MRI scans.},
-  file = {:PDF/ParrEtAl-CalculatingAxesRotation.pdf:PDF},
-  issn = {0021-9290},
-  keywords = {Ankle joint axis, Subtalar joint axis, 3D modelling, Principal axes},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://www.sciencedirect.com/science/article/pii/S0021929012000322}
-}
-
 @ARTICLE{Wahl2001,
   author = {Wahl, J. and Graw, M.},
   title = {Metric sex differentiation of the pars petrosa ossis temporalis},
@@ -23862,45 +23310,6 @@
   pages = {145-150}
 }
 
-@ARTICLE{Wold2001,
-  author = {Svante Wold and Michael Sjöström and Lennart Eriksson},
-  title = {PLS-regression: a basic tool of chemometrics},
-  journal = {Chemometrics and Intelligent Laboratory Systems},
-  year = {2001},
-  volume = {58},
-  pages = {109 - 130},
-  number = {2},
-  note = {<ce:title>PLS Methods</ce:title>},
-  abstract = {PLS-regression (PLSR) is the PLS approach in its simplest, and in
-	chemistry and technology, most used form (two-block predictive PLS).
-	PLSR is a method for relating two data matrices, X and Y, by a linear
-	multivariate model, but goes beyond traditional regression in that
-	it models also the structure of X and Y. PLSR derives its usefulness
-	from its ability to analyze data with many, noisy, collinear, and
-	even incomplete variables in both X and Y. PLSR has the desirable
-	property that the precision of the model parameters improves with
-	the increasing number of relevant variables and observations.
-	
-	This article reviews PLSR as it has developed to become a standard
-	tool in chemometrics and used in chemistry and engineering. The underlying
-	model and its assumptions are discussed, and commonly used diagnostics
-	are reviewed together with the interpretation of resulting parameters.
-	
-	Two examples are used as illustrations: First, a Quantitative Structure–Activity
-	Relationship (QSAR)/Quantitative Structure–Property Relationship
-	(QSPR) data set of peptides is used to outline how to develop, interpret
-	and refine a PLSR model. Second, a data set from the manufacturing
-	of recycled paper is analyzed to illustrate time series modelling
-	of process data by means of PLSR and time-lagged X-variables.},
-  doi = {10.1016/S0169-7439(01)00155-1},
-  file = {:PDF/wold-pls2001.pdf:PDF},
-  issn = {0169-7439},
-  keywords = {PLS},
-  owner = {schlager},
-  timestamp = {2012.05.04},
-  url = {http://www.sciencedirect.com/science/article/pii/S0169743901001551}
-}
-
 @ARTICLE{Won-Sook2006,
   author = {Won-Sook, L. and Soon, A.},
   title = {Facial shape and 3D skin},
@@ -24257,6 +23666,7 @@
   volume = {111},
   pages = {388--391},
   number = {4},
+  __markedentry = {[schlager:6]},
   abstract = {Craniofacial measurements are an integral part in the evaluation of
 	a dysmorphic patient. Since the clinical impression can be misleading,
 	dysmorphic features should be validated by quantitative criteria
@@ -24456,14 +23866,14 @@
 	Statistiken Statistisches Verfahren Statistik}
 }
 
-@MANUAL{Dicom2011,
+@MANUAL{Dicom2009,
   title = {Digital Imaging and Communications in Medicine (DICOM)},
   organization = {National electric Manufacturers Association},
   address = {1300 N. 17th Street
 	
 	Rosslyn, Virginia 22209 USA},
-  year = {2011},
-  file = {:PDF/DICOMstandard2011.pdf:PDF},
+  year = {2009},
+  file = {:PDF/DICOMStandard2009.pdf:PDF},
   owner = {ruedell},
   timestamp = {2010.07.23}
 }
@@ -24488,16 +23898,13 @@ erg2002a\;Klingenberg2003a\;Klingenberg2005a\;Klingenberg2008d\;Lou200
 htsmeier2002\;Rohlf1990\;Rohlf1999a\;Rohlf2000a\;Sasirekha2008\;Schoen
 emann1966\;Slice\;Slice2005a\;Vark1984\;Williams2008\;Yushkevich2009\;
 ;
-2 ExplicitGroup:Statistics\;0\;1992\;Abdi2007\;Abdi2010\;Adams2007\;Ad
-ams2009\;Albrecht1980\;Campbell1981\;Dryden1998\;Duembgen2010\;Faraway
-2002\;Faraway2004\;Faraway2005\;Haerdle2007\;Josse2008\;Knussmann1988b
-\;Langsrud2002\;Langsrud2007\;Lorenz1996\;Marcus1996\;Mevik:Wehrens:20
-07:JSSOBK:v18i02\;Muller1984143\;Neter1983\;R:Ligges:2005\;Rohlf2000b\
-;Sachs2009\;Shlens2005\;Sokal2005\;Stegmann2002\;Vigneau2002231\;Zoefe
-l1992\;;
+2 ExplicitGroup:Statistics\;0\;1992\;Adams2007\;Adams2009\;Albrecht198
+0\;Campbell1981\;Dryden1998\;Duembgen2010\;Faraway2002\;Faraway2004\;F
+araway2005\;Haerdle2007\;Josse2008\;Knussmann1988b\;Langsrud2002\;Lang
+srud2007\;Lorenz1996\;Marcus1996\;Mevik:Wehrens:2007:JSSOBK:v18i02\;Mu
+ller1984143\;Neter1983\;R:Ligges:2005\;Rohlf2000b\;Sachs2009\;Shlens20
+05\;Sokal2005\;Stegmann2002\;Vigneau2002231\;Zoefel1992\;;
 3 ExplicitGroup:Splines\;0\;;
-3 ExplicitGroup:pls\;0\;Abdi2010\;Martens1992\;Mevik2004\;Mevik:Wehren
-s:2007:JSSOBK:v18i02\;Pierna2009\;Wold2001\;;
 2 ExplicitGroup:R\;0\;Becker1988\;Behr2009\;Claude2008a\;Faraway2002\;
 Faraway2004\;Faraway2005\;Owen2010\;Paradis2005\;R:Ligges:2005\;R:Verz
 ani:2005\;RDevelopmentCoreTeam2011\;Team2010\;Venables2009\;;
@@ -24541,11 +23948,11 @@ otta2009\;Tilotta2010\;Ubelaker1992\;Vandermeulen2005\;Vandermeulen200
 asimov1968\;Grupe2005\;Helmer1984\;His1895\;Hossfeld2005\;Howells1973a
 \;Knussmann1988c\;Miyasaka1999\;Moeller2008\;Tyrrell1997\;Ullrich2011\
 ;Vanezis2000\;Verze2009\;Wilder1918\;Wilkinson2005\;;
-1 ExplicitGroup:Nase\;0\;Butaric2010\;Chen2011\;Damon1972\;Edelstein19
-96\;Macho1986\;Macho1989\;Mahler1983\;Prokopec2002\;Robison1986\;Rynn2
-006\;Rynn2009\;Schiwy-Bochat2001\;Schmittbuhl1998\;Schramm2006\;Schult
-z1918\;Sforza2011205e1\;Stephan2003d\;Tilotta2009\;Tilotta2010\;Tronco
-soPazos2008\;Virchow1912\;Virchow1924\;Zankl2002\;;
+1 ExplicitGroup:Nase\;0\;Butaric2010\;Chen2011\;Macho1986\;Macho1989\;
+Mahler1983\;Prokopec2002\;Robison1986\;Rynn2006\;Rynn2009\;Schiwy-Boch
+at2001\;Schmittbuhl1998\;Schramm2006\;Schultz1918\;Sforza2011205e1\;St
+ephan2003d\;Tilotta2009\;Tilotta2010\;TroncosoPazos2008\;Virchow1912\;
+Virchow1924\;Zankl2002\;;
 1 ExplicitGroup:Mandible\;0\;Adams2009\;Coquerelle2011\;Eijden2000\;Fr
 anklin2007a\;Franklin2008\;Franklin2008a\;Groening2010\;Hilger2003\;Hu
 mphrey1999\;Ionescu2007\;Johnston1993\;Johnston2001\;Kainmueller2009\;
@@ -24555,15 +23962,15 @@ dle2002\;Thayer2010\;Williams2003\;Zachow2006\;;
 1 ExplicitGroup:Face Perception\;0\;Bruce1991\;Hill2011\;Perrett1998\;
 Valenzano2006\;Wilson2002\;;
 1 ExplicitGroup:Alex\;2\;Meier2010\;;
-2 ExplicitGroup:Orbita\;0\;Achene2000\;Bookstein1997\;Bron1997\;Burkat
-2005\;Camirand1997\;Chau2004\;Cheng2008\;Civit2010\;Cutting1995\;Deser
-no2009\;Elias2004\;Ferrario2001\;Gentry1998\;Goldberg1999\;Haas1993\;H
-olck1999\;Husmann2011\;Hwang1999\;Ji2010\;Kahn2010\;Kamer2006\;Karakas
-2003\;Kim2006\;Kleiner2008\;Kozakiewicz2009\;Lamecker2007\;Lemke2001\;
-MCQUEEN1995\;Mafee2005\;Patnaik2001\;Pretorius2006\;Rene2006\;Rohrich2
-009\;Schmittbuhl1998\;Schmittbuhl1999\;Stephan2002a\;Stephan2002b\;Ste
-phan2008e\;Stephan2009\;Stewart1983\;Tingelhoff2009\;Tse1997\;Urbanova
-2009\;Whitnall1911\;Whitnall1921\;;
+2 ExplicitGroup:Orbita\;0\;Achene2000\;Bron1997\;Burkat2005\;Camirand1
+997\;Chau2004\;Cheng2008\;Civit2010\;Cutting1995\;Deserno2009\;Elias20
+04\;Ferrario2001\;Gentry1998\;Goldberg1999\;Haas1993\;Holck1999\;Husma
+nn2011\;Hwang1999\;Ji2010\;Kahn2010\;Kamer2006\;Karakas2003\;Kim2006\;
+Kleiner2008\;Kozakiewicz2009\;Lamecker2007\;Lemke2001\;MCQUEEN1995\;Ma
+fee2005\;Patnaik2001\;Pretorius2006\;Rene2006\;Rohrich2009\;Schmittbuh
+l1998\;Schmittbuhl1999\;Stephan2002a\;Stephan2002b\;Stephan2008e\;Step
+han2009\;Stewart1983\;Tingelhoff2009\;Tse1997\;Urbanova2009\;Whitnall1
+911\;Whitnall1921\;;
 3 ExplicitGroup:History Orbital reconstruction\;0\;Fedosyutkin1993\;St
 ephan2008e\;Whitnall1921\;Wilder1912\;Wilkinson2003\;;
 2 ExplicitGroup:Unread\;0\;Adams2009\;Deserno2009\;Kleiner2008\;Tilott

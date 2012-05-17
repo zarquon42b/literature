@@ -8562,37 +8562,6 @@
   url = {http://dx.doi.org/10.1111/j.1556-4029.2012.02075.x}
 }
 
-@ARTICLE{Guyomarch2012a,
-  author = {Guyomarc'h, Pierre and Stephan, Carl N.},
-  title = {The Validity of Ear Prediction Guidelines Used in Facial Approximation},
-  journal = {Journal of Forensic Sciences},
-  year = {2012},
-  pages = {no--no},
-  __markedentry = {[ruedell:]},
-  abstract = {Abstract:This study examined eight previously published ear prediction
-	methods by Welcker, Gerasimov, Fedosyutkin and Nainys, and Broadbent
-	and Mathews. Computed tomography scans of 78 living adults (n1) did
-	not support any of these previously published recommendations. Free
-	earlobes were found to accompany protruding supramastoid crests (Pearson�<�0.05);
-	and ear length [l] and width [w] differed by sex (p < 0.05), correlated
-	with age (r = 0.38[l]; 0.32[w]), and correlated with facial height
-	(r = 0.37[l]; 0.30[w]). New regression equations (for ear length
-	and width) were generated using these variables in several samples
-	and, where possible, cross-validated using independent data (n1 = 78,
-	n2 = 2190, n3 = 1328, n4 = 1010, and n5 = 47). As a result
-	of these analyses, four valid and tested methods for ear prediction
-	were identified, but large degrees of error continue to make accurate
-	prediction of the ear, from the skull, problematic.},
-  file = {:PDF/GuyomarckStephan-ValidityEarPrediction.pdf:PDF},
-  issn = {1556-4029},
-  keywords = {forensic science, facial reconstruction, facial reproduction, external
-	ear, pinna, skull},
-  owner = {ruedell},
-  publisher = {Blackwell Publishing Ltd},
-  timestamp = {2012.05.17},
-  url = {http://dx.doi.org/10.1111/j.1556-4029.2012.02181.x}
-}
-
 @ARTICLE{Guyot2006,
   author = {Guyot, L.; Richard, O.; Adalian, P.; Bartoli, C.; Dutour, O.; Leonetti,
 	D.},
@@ -11125,6 +11094,7 @@
   journal = {Journal of Forensic Sciences},
   year = {2012},
   pages = {no--no},
+  __markedentry = {[ruedell:6]},
   abstract = {Abstract:�?? Radiographs and computed tomography (CT) images have
 	been increasingly applied and accepted in forensic sciences. Along
 	with radiographs and CT images, the frontal sinus is often used for
@@ -15840,27 +15810,6 @@
 	Dies soll die vorgestellte Studie verdeutlichen.}
 }
 
-@INPROCEEDINGS{Ohtake2004,
-  author = {Ohtake, Yutaka and Belyaev, Alexander and Seidel, Hans-Peter},
-  title = {Ridge-valley lines on meshes via implicit surface fitting},
-  booktitle = {ACM SIGGRAPH 2004 Papers},
-  year = {2004},
-  series = {SIGGRAPH '04},
-  pages = {609--612},
-  address = {New York, NY, USA},
-  publisher = {ACM},
-  __markedentry = {[ruedell:6]},
-  acmid = {1015768},
-  doi = {10.1145/1186562.1015768},
-  file = {:PDF/OhtakeEtAl-RidgeValleyLinesOnMeshesImplSurfFit.pdf:PDF},
-  keywords = {curvature extrema, implicit surface fitting, ridges},
-  location = {Los Angeles, California},
-  numpages = {4},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://doi.acm.org/10.1145/1186562.1015768}
-}
-
 @ARTICLE{Olivares1998,
   author = {Olivares, E.I. and Iglesias, J. and Bobes, M.A.},
   title = {Searching for face-specific long latency ERPs: a topographic study
@@ -16094,86 +16043,6 @@
   shorttitle = {The role of forensic anthropology in the examination of the Daegu
 	subway disaster},
   timestamp = {2010.04.22}
-}
-
-@ARTICLE{Parr2011,
-  author = {Parr, W.C.H. and Ruto, A. and Soligo, C. and Chatterjee, H.J.},
-  title = {Allometric shape vector projection: A new method for the identification
-	of allometric shape characters and trajectories applied to the human
-	astragalus (talus)},
-  journal = {Journal of Theoretical Biology},
-  year = {2011},
-  volume = {272},
-  pages = {64--71},
-  number = {1},
-  month = mar,
-  abstract = {The surface morphology of the human astragalus (talus) is difficult
-	to represent accurately using landmarks as it is essentially globular
-	in shape. Advances in laser scanning technology allow fast and accurate
-	capture of bone surface morphology. However, methodologies to utilise
-	these new accurate 3D data have not been fully developed. The present
-	study uses canonical sampling of whole surface morphology attained
-	through laser scanning and for the first time applies the technique
-	to analysis of bone morphology. We introduce a new technique for
-	identifying allometric shape characters in whole bone surface morphology.
-	In a sample of adult human astragalus the new technique is successful
-	in identifying and isolating intra-specific allometric shape characters
-	in a bone which typically lacks landmarks and has, consequently,
-	proved difficult to analyse using traditional 3D morphometric methods.},
-  file = {:PDF/ParrEtAl-AllometricShapVectorProjection.pdf:PDF},
-  issn = {0022-5193},
-  keywords = {Scaling, Canonical sampling, Laser scanning, Principal components
-	analysis, Allometry},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://www.sciencedirect.com/science/article/pii/S0022519310006259}
-}
-
-@ARTICLE{Parr2012,
-  author = {Parr, W.C.H. and Wroe, S. and Chamoli, U. and Richards, H.S. and
-	McCurry, M.R. and Clausen, P.D. and McHenry, C.},
-  title = {Toward integration of geometric morphometrics and computational biomechanics:
-	New methods for 3D virtual reconstruction and quantitative analysis
-	of Finite Element Models},
-  journal = {Journal of Theoretical Biology},
-  year = {2012},
-  volume = {301},
-  pages = {1--14},
-  number = {0},
-  month = may,
-  abstract = {The ability to warp three-dimensional (3D) meshes from known biological
-	morphology to fit other known, predicted or hypothetical morphologies
-	has a range of potential applications in functional morphology and
-	biomechanics. One of the most challenging of these applications is
-	Finite Element Analysis (FEA), a potentially powerful non-destructive
-	tool in the prediction of mechanical behaviour. Geometric morphometrics
-	is another typically computer-based approach commonly applied in
-	morphological studies that allows for shape differences between specimens
-	to be quantified and analysed. There has been some integration of
-	these two fields in recent years. Although a number of shape warping
-	approaches have been developed previously, none are easily accessible.
-	Here we present an easily accessed method for warping meshes based
-	on freely available software and test the effectiveness of the approach
-	in FEA using the varanoid lizard mandible as a model. We further
-	present new statistical approaches, strain frequency plots and landmark
-	point strains, to analyse FEA results quantitatively and further
-	integrate FEA with geometric morphometrics. Using strain frequency
-	plots, strain field, bending displacements and landmark point strain
-	data we demonstrate that the mechanical behaviour of warped specimens
-	reproduces that of targets without significant error. The influence
-	of including internal cavity morphology in FEA models was also examined
-	and shown to increase bending displacements and strain magnitudes
-	in FE models. The warping approaches presented here will be useful
-	in a range of applications including the generation and analysis
-	of virtual reconstructions, generic models that approximate species
-	means, hypothetical morphologies and evolutionary intermediaries.},
-  file = {:PDF/ParrEtAl-TowardIntegrationGMCompBiomechanics.pdf:PDF},
-  issn = {0022-5193},
-  keywords = {Finite Element Analysis, Geometric morphometrics, Varanid, Warping,
-	Landmark point},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://www.sciencedirect.com/science/article/pii/S0022519312000409}
 }
 
 @ARTICLE{Paschetta2010,
@@ -22750,41 +22619,6 @@
 	und einem Hottentottenkind. L. Schultze, Forschungsreise im westlichen
 	und zentralen S�dafrika, ausgef�hrt 1903-1905},
   timestamp = {2010.04.22}
-}
-
-@ARTICLE{W.C.H.2012,
-  author = {W.C.H., Parr and H.J., Chatterjee and C., Soligo},
-  title = {Calculating the axes of rotation for the subtalar and talocrural
-	joints using 3D bone reconstructions},
-  journal = {Journal of Biomechanics},
-  year = {2012},
-  volume = {45},
-  pages = {1103--1107},
-  number = {6},
-  month = apr,
-  abstract = {Orientation of the subtalar joint axis dictates inversion and eversion
-	movements of the foot and has been the focus of evolutionary and
-	clinical studies for a number of years. Previous studies have measured
-	the subtalar joint axis against the axis of the whole foot, the talocrural
-	joint axis and, recently, the principal axes of the talus. The present
-	study introduces a new method for estimating average joint axes from
-	3D reconstructions of bones and applies the method to the talus to
-	calculate the subtalar and talocrural joint axes. The study also
-	assesses the validity of the principal axes as a reference coordinate
-	system against which to measure the subtalar joint axis. In order
-	to define the angle of the subtalar joint axis relative to that of
-	another axis in the talus, we suggest measuring the subtalar joint
-	axis against the talocrural joint axis. We present corresponding
-	3D vector angles calculated from a modern human skeletal sample.
-	This method is applicable to virtual 3D models acquired through surface-scanning
-	of disarticulated �??dry�?? osteological samples, as well as to 3D
-	models created from CT or MRI scans.},
-  file = {:PDF/ParrEtAl-CalculatingAxesRotation.pdf:PDF},
-  issn = {0021-9290},
-  keywords = {Ankle joint axis, Subtalar joint axis, 3D modelling, Principal axes},
-  owner = {ruedell},
-  timestamp = {2012.05.17},
-  url = {http://www.sciencedirect.com/science/article/pii/S0021929012000322}
 }
 
 @ARTICLE{Wahl2001,
