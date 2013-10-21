@@ -42,9 +42,12 @@ book=\format[AuthorLastFirst,AuthorAbbreviator,Replace(\,,),AuthorAndsReplacer, 
 
 incollection=\format[AuthorLastFirst,AuthorAbbreviator,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author} (\year\uniq) \title. In: \format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor} (ed) \booktitle. \publisher, \address
 
-inproceedings=\format[AuthorLastFirst,AuthorAbbreviator,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author} (\year\uniq) \title. In: \booktitle. \address
+#inproceedings=\format[AuthorLastFirst,AuthorAbbreviator,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author} (\year\uniq) \title. In: \booktitle. \address
 
-inbook=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} <b>\year\uniq</b>. <i>\chapter</i>. In: \format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\editor} (Ed.), <i>\title</i>, \publisher.
+inbook=\format[AuthorLastFirst,AuthorAbbreviator,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author} <b>\year\uniq</b>. <i>\chapter</i>. In: \format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\editor} (Ed.), <i>\title</i>, \publisher.
+
+inproceedings=\format[AuthorLastFirst,AuthorAbbreviator,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author} <b>\year\uniq</b>. <i>\title</i>. In: \format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\editor} (Ed.), <i>\booktitle</i>, \publisher.
+
 
 manual=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} <b>\year\uniq</b>. <i>\title.</i> \url.
 phdthesis=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} <b>\year\uniq</b>. <i>\title</i>, \school.
