@@ -2,8 +2,7 @@ NAME
 AJPA-Style
 
 JOURNALS
-Journal name 1
-Journal name 2
+AJPA
 
 PROPERTIES
 Title=References
@@ -17,7 +16,7 @@ AuthorField=author/editor
 YearField=year
 MaxAuthors=2
 AuthorSeparator=, 
-AuthorLastSeparator=, 
+AuthorLastSeparator= and 
 EtAlString= et al.
 YearSeparator= 
 InTextYearSeparator= 
@@ -37,16 +36,16 @@ SubscriptCitations=false
 
 
 LAYOUT
-article=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. <b>\year\uniq</b>. <i>\title</i>. \journal \volume\begin{pages}:\format[FormatPagesForHTML]{\pages}\end{pages}.
+article=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \year\uniq. \title. \journal \volume\begin{pages}:\format[FormatPagesForHTML]{\pages}\end{pages}.
 
-book=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \begin{editor}\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\editor} (Ed.)\end{editor} <b>\year\uniq</b>. <i>\title</i>. \publisher, \address.
+book=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \begin{editor}\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor}, editors. \end{editor}\year\uniq. \title. \begin{address}\address: \end{address}\publisher.
 
-incollection=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author} <b>\year\uniq</b>. <i>\title</i>. In: \format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\editor} (Ed.)\begin{pages}: \format[FormatPagesForHTML]{\pages}\end{pages}, <i>\booktitle</i>, \publisher.
+incollection=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \year\uniq. \title. In: \format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor}, editors \begin{pages}: \format[FormatPagesForHTML]{\pages}\end{pages}, \booktitle. \begin{address}\address: \end{address}\publisher. \begin{pages}p \format[FormatPagesForHTML]{\pages}\end{pages}.
 
-inbook=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} <b>\year\uniq</b>. <i>\chapter</i>. In: \format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\editor} (Ed.), <i>\title</i>, \publisher.
+inbook=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} \year\uniq. \chapter. In: \format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor}, editors. \address: \publisher \begin{pages}p \format[FormatPagesForHTML]{\pages}\end{pages}.
 
-manual=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} <b>\year\uniq</b>. <i>\title.</i> \url.
-phdthesis=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} <b>\year\uniq</b>. <i>\title</i>, \school.
+manual=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} \year\uniq. \title. \url.
+phdthesis=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} \year\uniq. \title, \school.
 
-default=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,AuthorAndsReplacer]{\author} <b>\year\uniq</b>. <i>\title</i>, \journal \volume\begin{pages} : \format[FormatPagesForHTML]{\pages}\end{pages}.
+default=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,AuthorAndsReplacer]{\author} \year\uniq. \title, \journal \volume\begin{pages} : \format[FormatPagesForHTML]{\pages}\end{pages}.
 
