@@ -18,7 +18,7 @@ MaxAuthors=2
 AuthorSeparator=, 
 AuthorLastSeparator= and 
 EtAlString= et al.
-YearSeparator= 
+YearSeparator=, 
 InTextYearSeparator= 
 BracketBefore=(
 BracketAfter=)
@@ -42,10 +42,10 @@ book=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Repla
 
 incollection=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \year\uniq. \title. In: \format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor}, editors \begin{pages}: \format[FormatPagesForHTML]{\pages}\end{pages}, \booktitle. \begin{address}\address: \end{address}\publisher. \begin{pages}p \format[FormatPagesForHTML]{\pages}\end{pages}.
 
-inbook=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} \year\uniq. \chapter. In: \format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor}, editors. \address: \publisher \begin{pages}p \format[FormatPagesForHTML]{\pages}\end{pages}.
+inbook=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} \year\uniq. \chapter. In: \format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor}, editors. \begin{address}\address: \end{address}\publisher \begin{pages}p \format[FormatPagesForHTML]{\pages}\end{pages}.
 
-manual=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} \year\uniq. \title. \url.
-phdthesis=\format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer]{\author} \year\uniq. \title, \school.
+manual=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \year\uniq. \title. \url.
+phdthesis=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author} \year\uniq. \title, \school. \begin{url}\url\end{url}.
 
-default=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,AuthorAndsReplacer]{\author} \year\uniq. \title, \journal \volume\begin{pages} : \format[FormatPagesForHTML]{\pages}\end{pages}.
+default=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \year\uniq. \title, \journal \volume\begin{pages} : \format[FormatPagesForHTML]{\pages}\end{pages}.
 
