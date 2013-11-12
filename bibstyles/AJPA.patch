@@ -1,0 +1,72 @@
+*** AJPA.bst	2013-11-12 11:21:50.945079370 +0100
+--- test1.bst	2013-11-12 11:23:50.497672200 +0100
+***************
+*** 255,264 ****
+  { "in" }
+  
+  FUNCTION {bbl.pages}
+! { "pp." }
+  
+  FUNCTION {bbl.page}
+! { "p." }
+  
+  FUNCTION {bbl.chapter}
+  { "chapter" }
+--- 255,264 ----
+  { "in" }
+  
+  FUNCTION {bbl.pages}
+! { "p" }
+  
+  FUNCTION {bbl.page}
+! { "p" }
+  
+  FUNCTION {bbl.chapter}
+  { "chapter" }
+***************
+*** 452,458 ****
+      { " " * bbl.pages * }
+    if$
+  }
+! FUNCTION {format.note}
+  {
+   note empty$
+      { "" }
+--- 452,458 ----
+      { " " * bbl.pages * }
+    if$
+  }
+! FUNCTION {%format.note}
+  {
+   note empty$
+      { "" }
+***************
+*** 977,982 ****
+--- 977,983 ----
+        format.edition output
+        new.sentence
+        format.publisher.address output
++       new.block 
+      }
+      {
+        format.chapter.pages "chapter and pages" output.check
+***************
+*** 1011,1016 ****
+--- 1012,1018 ----
+        format.chapter.pages output
+      }
+    if$
++   new.block
+    format.pages "pages" output.check
+    new.block
+    format.note output
+***************
+*** 1039,1044 ****
+--- 1041,1047 ----
+      { format.incoll.inproc.crossref output.nonnull
+      }
+    if$
++   new.block
+    format.pages "pages" output.check
+    new.block
+    format.note output
