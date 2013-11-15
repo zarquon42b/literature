@@ -64,7 +64,7 @@ ENTRY
     journal
     key
     month
-    note
+    %note
     number
     organization
     pages
@@ -452,24 +452,24 @@ FUNCTION {format.book.pages}
     { " " * bbl.pages * }
   if$
 }
-FUNCTION {%format.note}
-{
- note empty$
-    { "" }
-    { note #1 #1 substring$
-      duplicate$ "{" =
-        'skip$
-        { output.state mid.sentence =
-          { "l" }
-          { "u" }
-        if$
-        change.case$
-        }
-      if$
-      note #2 global.max$ substring$ * "note" bibinfo.check
-    }
-  if$
-}
+%FUNCTION {format.note}
+%{
+% note empty$
+ %   { "" }
+%    { note #1 #1 substring$
+%      duplicate$ "{" =
+%        'skip$
+%        { output.state mid.sentence =
+%          { "l" }
+%          { "u" }
+%        if$
+%        change.case$
+%       }
+%      if$
+%      note #2 global.max$ substring$ * "note" bibinfo.check
+%    }
+%  if$
+%}
 
 FUNCTION {format.title}
 { title
@@ -899,7 +899,7 @@ FUNCTION {article}
     { format.journal.eid }
   if$
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 FUNCTION {book}
@@ -933,7 +933,7 @@ FUNCTION {book}
   if$
   format.book.pages output
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 FUNCTION {booklet}
@@ -948,7 +948,7 @@ FUNCTION {booklet}
   address "address" bibinfo.check output
   format.book.pages output
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 
@@ -987,7 +987,7 @@ FUNCTION {inbook}
   if$
   format.pages "pages" output.check
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 
@@ -1015,7 +1015,7 @@ FUNCTION {incollection}
   new.block
   format.pages "pages" output.check
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 FUNCTION {inproceedings}
@@ -1044,7 +1044,7 @@ FUNCTION {inproceedings}
   new.block
   format.pages "pages" output.check
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 FUNCTION {conference} { inproceedings }
@@ -1060,7 +1060,7 @@ FUNCTION {manual}
   address "address" bibinfo.check output
   format.edition output
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 
@@ -1077,7 +1077,7 @@ FUNCTION {mastersthesis}
   school "school" bibinfo.warn output
   address "address" bibinfo.check output
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 
@@ -1091,7 +1091,7 @@ FUNCTION {misc}
   new.block
   howpublished "howpublished" bibinfo.check output
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 FUNCTION {phdthesis}
@@ -1107,7 +1107,7 @@ FUNCTION {phdthesis}
   school "school" bibinfo.warn output
   address "address" bibinfo.check output
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 
@@ -1128,7 +1128,7 @@ FUNCTION {proceedings}
     }
   if$
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 
@@ -1145,7 +1145,7 @@ FUNCTION {techreport}
   institution "institution" bibinfo.warn output
   address "address" bibinfo.check output
   new.block
-  format.note output
+  %format.note output
   fin.entry
 }
 
@@ -1157,7 +1157,7 @@ FUNCTION {unpublished}
   date.block
   format.title "title" output.check
   new.block
-  format.note "note" output.check
+  %format.note "note" output.check
   fin.entry
 }
 
