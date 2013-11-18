@@ -1,0 +1,9 @@
+Howto create bibtex styles from templates - command in shell:
+1. AJPA style without urls in bibliography
+
+ * latex AJPA.dbj
+ * patch -i AJPA.patch #apply patch to remove notes and customize formatting of @incollection and @inbook
+
+2. AJPA style with urls in bibliography (manuals only)
+ * latex AJPAurl.dbj
+ * patch -i AJPA.url.manuals.patch #apply patch to remove notes and customize formatting of @incollection and @inbook and remove urls from all entries except @manual
