@@ -1,0 +1,360 @@
+*** AJPAurl.bst	2013-11-18 14:14:24.044774878 +0100
+--- AJPA.mod.bst	2013-11-18 14:12:48.232299770 +0100
+***************
+*** 256,265 ****
+  { "in" }
+  
+  FUNCTION {bbl.pages}
+! { "pp." }
+  
+  FUNCTION {bbl.page}
+! { "p." }
+  
+  FUNCTION {bbl.chapter}
+  { "chapter" }
+--- 256,265 ----
+  { "in" }
+  
+  FUNCTION {bbl.pages}
+! { "p" }
+  
+  FUNCTION {bbl.page}
+! { "p" }
+  
+  FUNCTION {bbl.chapter}
+  { "chapter" }
+***************
+*** 462,485 ****
+      { " " * bbl.pages * }
+    if$
+  }
+! FUNCTION {format.note}
+! {
+!  note empty$
+!     { "" }
+!     { note #1 #1 substring$
+!       duplicate$ "{" =
+!         'skip$
+!         { output.state mid.sentence =
+!           { "l" }
+!           { "u" }
+!         if$
+!         change.case$
+!         }
+!       if$
+!       note #2 global.max$ substring$ * "note" bibinfo.check
+!     }
+!   if$
+! }
+  
+  FUNCTION {format.title}
+  { title
+--- 462,485 ----
+      { " " * bbl.pages * }
+    if$
+  }
+! %FUNCTION {format.note}
+! %{
+! % note empty$
+! %    { "" }
+! %    { note #1 #1 substring$
+! %      duplicate$ "{" =
+! %        'skip$
+! %        { output.state mid.sentence =
+! %          { "l" }
+! %          { "u" }
+! %        if$
+! %        change.case$
+! %        }
+! %      if$
+! %      note #2 global.max$ substring$ * "note" bibinfo.check
+! %    }
+! %  if$
+! %}
+  
+  FUNCTION {format.title}
+  { title
+***************
+*** 909,917 ****
+      { format.journal.eid }
+    if$
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  FUNCTION {book}
+--- 909,917 ----
+      { format.journal.eid }
+    if$
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  FUNCTION {book}
+***************
+*** 945,953 ****
+    if$
+    format.book.pages output
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  FUNCTION {booklet}
+--- 945,953 ----
+    if$
+    format.book.pages output
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  FUNCTION {booklet}
+***************
+*** 962,970 ****
+    address "address" bibinfo.check output
+    format.book.pages output
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  
+--- 962,970 ----
+    address "address" bibinfo.check output
+    format.book.pages output
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  
+***************
+*** 1002,1010 ****
+    if$
+    format.pages "pages" output.check
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  
+--- 1002,1010 ----
+    if$
+    format.pages "pages" output.check
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  
+***************
+*** 1024,1029 ****
+--- 1024,1030 ----
+        format.chapter.pages output
+        new.sentence
+        format.publisher.address output
++       new.block
+      }
+      { format.incoll.inproc.crossref output.nonnull
+        format.chapter.pages output
+***************
+*** 1031,1039 ****
+    if$
+    format.pages "pages" output.check
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  FUNCTION {inproceedings}
+--- 1032,1040 ----
+    if$
+    format.pages "pages" output.check
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  FUNCTION {inproceedings}
+***************
+*** 1059,1069 ****
+      { format.incoll.inproc.crossref output.nonnull
+      }
+    if$
+    format.pages "pages" output.check
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  FUNCTION {conference} { inproceedings }
+--- 1060,1071 ----
+      { format.incoll.inproc.crossref output.nonnull
+      }
+    if$
++   new.block
+    format.pages "pages" output.check
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  FUNCTION {conference} { inproceedings }
+***************
+*** 1081,1087 ****
+    new.block
+    format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  
+--- 1083,1089 ----
+    new.block
+    format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  
+***************
+*** 1098,1106 ****
+    school "school" bibinfo.warn output
+    address "address" bibinfo.check output
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  
+--- 1100,1108 ----
+    school "school" bibinfo.warn output
+    address "address" bibinfo.check output
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  
+***************
+*** 1114,1122 ****
+    new.block
+    howpublished "howpublished" bibinfo.check output
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  FUNCTION {phdthesis}
+--- 1116,1124 ----
+    new.block
+    howpublished "howpublished" bibinfo.check output
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  FUNCTION {phdthesis}
+***************
+*** 1132,1140 ****
+    school "school" bibinfo.warn output
+    address "address" bibinfo.check output
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  
+--- 1134,1142 ----
+    school "school" bibinfo.warn output
+    address "address" bibinfo.check output
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  
+***************
+*** 1155,1163 ****
+      }
+    if$
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  
+--- 1157,1165 ----
+      }
+    if$
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  
+***************
+*** 1174,1182 ****
+    institution "institution" bibinfo.warn output
+    address "address" bibinfo.check output
+    new.block
+!   format.url output
+    new.block
+!   format.note output
+    fin.entry
+  }
+  
+--- 1176,1184 ----
+    institution "institution" bibinfo.warn output
+    address "address" bibinfo.check output
+    new.block
+!   %format.url output
+    new.block
+!   %format.note output
+    fin.entry
+  }
+  
+***************
+*** 1188,1196 ****
+    date.block
+    format.title "title" output.check
+    new.block
+!   format.url output
+    new.block
+!   format.note "note" output.check
+    fin.entry
+  }
+  
+--- 1190,1198 ----
+    date.block
+    format.title "title" output.check
+    new.block
+!   %format.url output
+    new.block
+!   %format.note "note" output.check
+    fin.entry
+  }
+  
