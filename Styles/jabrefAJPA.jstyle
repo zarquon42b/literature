@@ -36,7 +36,7 @@ SubscriptCitations=false
 
 
 LAYOUT
-article=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \year\uniq. \title. \journal \volume\begin{pages}:\format[FormatPagesForHTML]{\pages}\end{pages}.
+article=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \year\uniq. \title. \journal \volume(\number)\begin{pages}:\format[FormatPagesForHTML]{\pages}\end{pages}.
 
 book=\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\author}. \begin{editor}\format[AuthorLastFirst,AuthorAbbreviator,NoSpaceBetweenAbbreviations,Replace(\,,),AuthorAndsReplacer, Replace(\.,),Replace(\~,),Replace(\ &,\,,),Replace(\;,\,,)]{\editor}, editors. \end{editor}\year\uniq. \title. \begin{address}\address: \end{address}\publisher.
 
