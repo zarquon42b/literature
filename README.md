@@ -1,2 +1,3 @@
-# literature
-literature
+# Literature
+
+Bibtex file containing collected research literature
