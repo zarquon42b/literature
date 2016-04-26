@@ -1,0 +1,113 @@
+diff --git a/PromotionStefanAlexPierre.bib b/PromotionStefanAlexPierre.bib
+index 7655e2f..039be6e 100644
+--- a/PromotionStefanAlexPierre.bib
++++ b/PromotionStefanAlexPierre.bib
+@@ -26906,7 +26906,6 @@ Status: nicht ausleihbar (Praesenzbestand)},
+   Number                   = {1-3},
+   Pages                    = {15--23},
+   Volume                   = {89},
+-  __markedentry            = {[russ:]},
+   Owner                    = {russ},
+   Publisher                = {Springer},
+   Timestamp                = {2016.03.03}
+@@ -26920,7 +26919,6 @@ Status: nicht ausleihbar (Praesenzbestand)},
+   Number                   = {2},
+   Pages                    = {235--243},
+   Volume                   = {14},
+-  __markedentry            = {[russ:6]},
+   Owner                    = {russ},
+   Publisher                = {Wiley Online Library},
+   Timestamp                = {2016.03.03}
+@@ -26932,23 +26930,17 @@ Status: nicht ausleihbar (Praesenzbestand)},
+   Journal                  = {Developmental instability: causes and consequences},
+   Year                     = {2003},
+   Pages                    = {415},
+-  __markedentry            = {[russ:6]},
+   Owner                    = {russ},
+   Publisher                = {Oxford University Press on Demand},
+   Timestamp                = {2016.03.03}
+ }
+ 
+-@Article{Weisensee2011,
+-  Title                    = {Secular changes in craniofacial morphology of the {P}ortuguese using geometric morphometrics},
+-  Author                   = {Weisensee, Katherine E and Jantz, Richard L},
+-  Journal                  = {American Journal of Physical Anthropology},
+-  Year                     = {2011},
+ @Article{Clarke1993a,
+   Title                    = {The genetic basis of developmental stability. I. Relationships between stability, heterozygosity and genomic coadaptation},
+   Author                   = {Clarke, Geoffrey M},
+   Journal                  = {Genetica},
+   Year                     = {1993},
+   Number                   = {1-3},
+   Pages                    = {15--23},
+   Volume                   = {89},
+   Owner                    = {russ},
+
+   Publisher                = {Springer},
+   Timestamp                = {2016.03.03}
+ }
+ 
+ @Article{Moller1993,
+   Title                    = {Fluctuating asymmetry and sexual selection},
+   Author                   = {M{\o}ller, AP and Pomiankowski, A},
+   Journal                  = {Genetica},
+   Year                     = {1993},
+   Number                   = {1-3},
+   Pages                    = {267--279},
+   Volume                   = {89},
+   Owner                    = {russ},
+   Publisher                = {Springer},
+   Timestamp                = {2016.03.03}
+ }
+ 
+ @Article{Wells2006,
+   Title                    = {A trade-off between early growth rate and fluctuating asymmetry in Brazilian boys},
+   Author                   = {Wells, Jonathan CK and Hallal, Pedro C and Manning, John T and Victora, Cesar G},
+   Journal                  = {Annals of human biology},
+   Year                     = {2006},
+   Number                   = {1},
+   Pages                    = {112--124},
+   Volume                   = {33},
+   File                     = {:PDF/2006_Wells_ early_growth_rate_and_fluctuating_asymmetry.pdf:PDF},
+   Owner                    = {russ},
+   Publisher                = {Taylor \& Francis},
+   Timestamp                = {2016.03.03
+ }
+
+ @Article{Parsons1992a,
+   Title                    = {Fluctuating asymmetry: a biological monitor of environmental and genomic stress},
+   Author                   = {Parsons, PA},
+   Journal                  = {Heredity},
+   Year                     = {1992},
+   Number                   = {4},
+   Pages                    = {361--364},
+   Volume                   = {68},
+   __markedentry            = {[russ:]},
+   Owner                    = {russ},
+   Timestamp                = {2016.03.03}
+ }
+ 
+ @Article{Parsons1992b,
+   Title                    = {Fluctuating asymmetry: a biological monitor of environmental and genomic stress},
+   Author                   = {Parsons, PA},
+   Journal                  = {Heredity},
+   Year                     = {1992},
+   Number                   = {4},
+   Pages                    = {361--364},
+   Volume                   = {68},
+   __markedentry            = {[russ:6]},
+   File                     = {:PDF/1991_Parsons_Fluctuating_Asymmetry\:_A_biological_monitor.pdf:PDF},
+   Owner                    = {russ},
+   Timestamp                = {2016.03.03}
+ }
+ 
+ @comment{jabref-meta: fileDirectory-ruedell:/media/Morpho/Literatur;}
+@@ -27012,7 +27062,7 @@ Status: nicht ausleihbar (Praesenzbestand)},
+ 1 KeywordGroup:IntegrationModularity\;0\;keywords\;integration, modularity\;0\;0\;;
+ 1 ExplicitGroup:Anthropometry\;0\;Elliott2014\;Franklin2013\;Franks2014\;Ogawa2013\;;
+ 1 ExplicitGroup:Allometry\;0\;Adams2010\;Bastir2004\;Bastir2011\;Berge2004\;Bigoni2010\;Bookstein2013\;Bruner2010\;Coleman2008\;Drake2008\;Freidline2012\;Gidaszewski2009\;GomezRobles2012\;Gonzalez2011\;Halazonetis2007\;Hennessy2001\;Jonke2008\;Kimmerle2008\;Klingenberg1998a\;Klingenberg2013a\;Loy1998\;Marcus1996\;Martinez-Abadias2012\;McCane2011\;Miller2008\;Mitteroecker2004a\;Mitteroecker2007\;Mitteroecker2013\;Nicholson2006\;Parr2011\;Penin2002\;Rosas2002\;Schaefer2004\;Sidlauskas2011\;Slater2009\;Sylvester2008d\;VanderLinde2009\;Worthington2012\;;
+-1 ExplicitGroup:Asymmetry\;0\;AbdelFatah2012\;Albertson2005\;Bigoni2013\;Captier2006\;Chen1997\;Cheng2008\;Chierici1973\;Claes2011\;Claes2012\;CohenJr1995\;CohenJr1995a\;DeLeon2007\;Dongen2006\;Ferrario1995\;Franks2014\;Gangestad1994a\;Gangestad2003a\;Gawlikowska2007\;Gilbert1989\;Graham2010\;Grayson1983\;Hartman2016\;Hennessy2004\;Kent2001\;Kim2003\;Kimmerle2005\;Klingenberg1998\;Klingenberg2001\;Klingenberg2002a\;Klingenberg2003b\;Klingenberg2015\;Koehler2004\;Krajicek2012\;Leamy2005\;Mardia2000\;Mitra2007\;Mitteroecker2009b\;Moeller1997a\;Moraes2011\;Mulick1965\;Oezener2010\;Overbury2009\;Palmer1986\;Palmer2003\;Penton-Voak2001a\;Pirttiniemi1998\;Rhodes2005\;Rossi2003\;Savriama2006\;Schaefer2006\;SchaeferOctober2009\;Scheib1999a\;Shrimpton2014\;Simmons2004\;Smith1997\;Thornhill2006\;VanDongen2011\;Weisensee2011\;Windhager2014\;grammer1994human\;;
++1 ExplicitGroup:Asymmetry\;0\;AbdelFatah2012\;Albertson2005\;Bigoni2013\;Captier2006\;Chen1997\;Cheng2008\;Chierici1973\;Claes2011\;Claes2012\;CohenJr1995\;CohenJr1995a\;DeLeon2007\;Dongen2006\;Ferrario1995\;Franks2014\;Gangestad1994a\;Gangestad2003a\;Gawlikowska2007\;Gilbert1989\;Graham2010\;Grayson1983\;Hartman2016\;Hennessy2004\;Kent2001\;Kim2003\;Kimmerle2005\;Klingenberg1998\;Klingenberg2001\;Klingenberg2002a\;Klingenberg2003b\;Klingenberg2015\;Koehler2004\;Krajicek2012\;Leamy2005\;Mardia2000\;Mitra2007\;Mitteroecker2009b\;Moeller1997a\;Moraes2011\;Mulick1965\;Oezener2010\;Overbury2009\;Palmer1986\;Palmer2003\;Penton-Voak2001a\;Pirttiniemi1998\;Rhodes2005\;Rossi2003\;Savriama2006\;Schaefer2006\;SchaeferOctober2009\;Scheib1999a\;Shrimpton2014\;Simmons2004\;Smith1997\;Thornhill2006\;VanDongen2011\;Windhager2014\;grammer1994human\;;
+ 1 KeywordGroup:HumanEvolution\;0\;keywords\;humevo\;0\;0\;;
+ 1 ExplicitGroup:ResearchDataManagement\;0\;Borel2012\;Buettner2011\;Burger2013\;DFG2009\;Delson2007\;Engelhardt2013\;Engelhardt2013a\;Friedhoff2013\;Gordon2013\;Jensen2011\;Kindling2013\;Kuberek2013\;Latocha2013\;Ludwig2013\;Neuroth2012\;Neuroth2012a\;Razum2011\;Rechert2012\;Riede2010\;Riley2009\;Sadiq2013\;Simukovic2013\;Spindler2011\;Suchodoletz2013\;Tenopir2011\;Vompras2011\;Willmes2013\;Winn2013\;Wissenschaftsrat2012\;;
+ 1 ExplicitGroup:Climate adaptation\;0\;Bastir2013\;Betti2010\;Carey1981\;Cramon-Taubadel2014\;Evteev2013\;Harvati2006\;Holton2012\;Hubbe2009\;Noback2011\;Roseman2004\;Yokley2009\;;
