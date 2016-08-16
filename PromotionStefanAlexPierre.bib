@@ -2281,11 +2281,17 @@
 }
 
 @InProceedings{Wiley2005,
-  Title                    = {Evolutionary Morphing.},
-  Author                   = {David F. Wiley and Nina Amenta and Dan A. Alcantara and Deboshmita Ghosh and Yong Joo Kil and Eric Delson and Will Harcourt-Smith and Katherine St. John and F. James Rohlf and Bernd Hamann},
-  Booktitle                = {IEEE Visualization'05},
-  Year                     = {2005},
-  Pages                    = {-1--1}
+  author    = {David F. Wiley and Nina Amenta and Dan A. Alcantara and Deboshmita Ghosh and Yong Joo Kil and Eric Delson and Will Harcourt-Smith and Katherine St. John and F. James Rohlf and Bernd Hamann},
+  title     = {Evolutionary Morphing.},
+  booktitle = {Proceedings of IEEE Visualization 2005},
+  year      = {2005},
+  pages     = {1-8},
+  abstract  = {We introduce a technique to visualize the gradual evolutionary change of the shapes of living things as a morph between known three-dimensional shapes. Given geometric computer models of anatomical shapes for some collection of specimens - here the skulls of the some of the extant members of a family of monkeys - an evolutionary tree for the group implies a hypothesis about the way in which the shape changed through time. We use a statistical method which expresses the value of some variable - in this case the shape - at an internal point in the tree as a weighted average of the values at the leaves. The framework of geometric morphometrics can then be used to define a shape-space, based on the correspondences of landmark points on the surfaces, within which these weighted averages can be realized as actual surfaces. Our software provides tools for performing and visualizing such an analysis in three dimensions. Beginning with laser range surfaces scans of skulls, we use our landmark editor to interactively place landmark points on the surface. We use these to compute a treemorph which smoothly interpolates the shapes across the tree. Each intermediate shape in the morph is a linear combination of all of the input surfaces. We create a surface model for an intermediate shape by warping all the input meshes towards the correct shape and then merging them together. Our merging procedure is novel. Given several similar surface meshes, we compute a weighted average between them by averaging their associated trivariate squared distance functions, and then extract the extremal surface which traces out the #valleys# along which the averaged function is nearly zero.},
+  eventtime = {October 23--25, 2005},
+  file      = {:PDF/WileyEtAl-EvolutionaryMorphing.pdf:PDF},
+  keywords  = {morphometrics, morphing, surface blending, merging, warping, distance fields, extremal surface},
+  location  = {Minneapolis, Minnesota},
+  url       = {http://graphics.idav.ucdavis.edu/research/EvoMorph},
 }
 
 @Book{Wilkinson2004a,
@@ -2398,7 +2404,7 @@
   year     = {2012},
   volume   = {advpub},
   doi      = {10.1537/ase.120803},
-  file     = {:media/Morpho/Literatur/PDF/XingEtAl-GeometricMorphometricAnalysesOfOrbitShape.pdf:PDF},
+  file     = {:PDF/XingEtAl-GeometricMorphometricAnalysesOfOrbitShape.pdf:PDF},
   groups   = {Orbita, Orbita Population Affinity},
   keywords = {zyg, zygomaticum, zygomaticus},
 }
@@ -29587,6 +29593,18 @@ Our results confirm that the cranium, as a whole, and the temporal bone can be u
   owner     = {ruedell},
   timestamp = {2016.08.16},
   url       = {http://onlinelibrary.wiley.com/doi/10.1111/j.1755-0998.2010.02924.x/full},
+}
+
+@Manual{Dryden2015,
+  title        = {Shapes package},
+  author       = {Dryden, I. L.},
+  organization = {R Foundation for Statistical Computing},
+  address      = {Vienna, Austria},
+  year         = {2015},
+  note         = {Contributed package, Version 1.1-11.},
+  owner        = {ruedell},
+  timestamp    = {2016.08.16},
+  url          = {http://www.R-project.org},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
