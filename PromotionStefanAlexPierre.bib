@@ -224,19 +224,20 @@
 }
 
 @Article{Berendsen20131119,
-  Title                    = {Free-form image registration regularized by a statistical shape model: application to organ segmentation in cervical {MR}},
-  Author                   = {Floris F. Berendsen and Uulke A. van der Heide and Thomas R. Langerak and Alexis N.T.J. Kotte and Josien P.W. Pluim},
-  Journal                  = {Computer Vision and Image Understanding},
-  Year                     = {2013},
-  Number                   = {9},
-  Pages                    = {1119 - 1127},
-  Volume                   = {117},
-  Abstract                 = {Abstract Deformable registration is prone to errors when it involves large and complex deformations, since the procedure can easily end up in a local minimum. To reduce the number of local minima, and thus the risk of misalignment, regularization terms based on prior knowledge can be incorporated in registration. We propose a regularization term that is based on statistical knowledge of the deformations that are to be expected. A statistical model, trained on the shapes of a set of segmentations, is integrated as a penalty term in a free-form registration framework. For the evaluation of our approach, we perform inter-patient registration of \{MR\} images, which were acquired for planning of radiation therapy of cervical cancer. The manual delineations of structures such as the bladder and the clinical target volume are available. For both structures, leave-one-patient-out registration experiments were performed. The propagated atlas segmentations were compared to the manual target segmentations by Dice similarity and Hausdorff distance. Compared with registration without the use of statistical knowledge, the segmentations were significantly improved, by 0.1 in Dice similarity and by 8&#xa0;mm Hausdorff distance on average for both structures. },
-  Doi                      = {http://dx.doi.org/10.1016/j.cviu.2012.12.006},
-  File                     = {:PDF/Berendsen-free-form-image-reg-shape-mod.pdf:PDF},
-  ISSN                     = {1077-3142},
-  Keywords                 = {Inter-subject, medimage},
-  Url                      = {http://www.sciencedirect.com/science/article/pii/S1077314213000660}
+  author   = {Floris F. Berendsen and Uulke A. van der Heide and Thomas R. Langerak and Alexis N.T.J. Kotte and Josien P.W. Pluim},
+  title    = {Free-form image registration regularized by a statistical shape model: application to organ segmentation in cervical {MR}},
+  journal  = {Computer Vision and Image Understanding},
+  year     = {2013},
+  volume   = {117},
+  number   = {9},
+  pages    = {1119 - 1127},
+  abstract = {Abstract Deformable registration is prone to errors when it involves large and complex deformations, since the procedure can easily end up in a local minimum. To reduce the number of local minima, and thus the risk of misalignment, regularization terms based on prior knowledge can be incorporated in registration. We propose a regularization term that is based on statistical knowledge of the deformations that are to be expected. A statistical model, trained on the shapes of a set of segmentations, is integrated as a penalty term in a free-form registration framework. For the evaluation of our approach, we perform inter-patient registration of \{MR\} images, which were acquired for planning of radiation therapy of cervical cancer. The manual delineations of structures such as the bladder and the clinical target volume are available. For both structures, leave-one-patient-out registration experiments were performed. The propagated atlas segmentations were compared to the manual target segmentations by Dice similarity and Hausdorff distance. Compared with registration without the use of statistical knowledge, the segmentations were significantly improved, by 0.1 in Dice similarity and by 8&#xa0;mm Hausdorff distance on average for both structures. },
+  doi      = {http://dx.doi.org/10.1016/j.cviu.2012.12.006},
+  file     = {:PDF/Berendsen-free-form-image-reg-shape-mod.pdf:PDF},
+  groups   = {MRI},
+  issn     = {1077-3142},
+  keywords = {Inter-subject, medimage},
+  url      = {http://www.sciencedirect.com/science/article/pii/S1077314213000660},
 }
 
 @Article{Bignon2005,
@@ -30367,6 +30368,7 @@ Our results confirm that the cranium, as a whole, and the temporal bone can be u
   institution = {University of Basel},
   year        = {2009},
   file        = {:PDF/LuethiEtal-AHierarchicalMultiresolutionApproachForModelbasedSkullsegmentation.pdf:PDF},
+  groups      = {MRI},
   keywords    = {medimage},
   owner       = {ruedell},
   timestamp   = {2016.09.22},
@@ -30411,6 +30413,23 @@ Our results confirm that the cranium, as a whole, and the temporal bone can be u
   url       = {http://link.springer.com/chapter/10.1007/978-3-642-04271-3_1},
 }
 
+@Article{Torrado-Carvajal2016,
+  author    = {Torrado-Carvajal, Angel and Herraiz, Joaquin L and Hernandez-Tamames, Juan A and Jose-Estepar, San and Eryaman, Yigitcan and Rozenholc, Yves and Adalsteinsson, Elfar and Wald, Lawrence L and Malpica, Norberto and others},
+  title     = {Multi-atlas and label fusion approach for patient-specific MRI based skull estimation},
+  journal   = {Magnetic resonance in medicine},
+  year      = {2016},
+  volume    = {5},
+  pages     = {1797-1807},
+  doi       = {DOI 10.1002/mrm.25737},
+  file      = {:PDF/TorradoCarvajalEtAl-MultiAtlasAndLabelFusionApproachForPatientSpecificMRIBasedSkullEstimation.pdf:PDF},
+  groups    = {MRI},
+  keywords  = {medimage},
+  owner     = {ruedell},
+  publisher = {Wiley Online Library},
+  timestamp = {2016.10.19},
+  url       = {onlinelibrary.wiley.com/journal/10.1002/(ISSN)1522-2594},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectory-ruedell:/media/Morpho/Literatur;}
@@ -30436,6 +30455,7 @@ Our results confirm that the cranium, as a whole, and the temporal bone can be u
 3 KeywordGroup:Python\;0\;keywords\;python\;0\;0\;;
 3 KeywordGroup:C++\;0\;keywords\;C++\;0\;0\;;
 3 KeywordGroup:MedicalImaging\;0\;keywords\;medimage\;0\;0\;;
+4 ExplicitGroup:MRI\;0\;;
 2 ExplicitGroup:3DScanning\;0\;;
 1 ExplicitGroup:IntroductionIntoGM\;0\;;
 1 ExplicitGroup:Facial Reconstruction\;0\;;
