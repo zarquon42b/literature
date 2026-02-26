@@ -1472,7 +1472,7 @@
   year         = {2012},
   abstract     = {This paper describes the Statismo framework, which is a framework for PCA based statistical models.Statistical models are used to describe the variability of an object within a population, learned from a set of training samples. Originally developed to model shapes, statistical models are now increasingly used to model the variation in different kind of data, such as for example images, volumetric meshes or deformation fields. Statismo has been developed with the following main goals in mind: 1) To provide generic tools for learning different kinds of PCA based statistical models, such as shape, appearance or deformations models. 2) To make the exchange of such models easier among different research groups and to improve the reproducibility of the models. 3) To allow for easy integration of new methods for model building into the framework. To achieve the first goal, we have abstracted all the aspects that are specific to a given model and data representation, into a user defined class. This does not only make it possible to use Statismo to create different kinds of PCA models, but also allows Statismo to be used with any toolkit and data format. To facilitate data exchange, Statismo defines a storage format based on HDF5, which includes all the information necessary to use the model, as well as meta-data about the model creation, which helps to make model building reproducible. The last goal is achieved by providing a clear separation between data management, model building and model representation. In addition to the standard method for building PCA models, Statismo already includes two recently proposed algorithms for building conditional models, as well as convenience tools for facilitating cross-validation studies. Although Statismo has been designed to be independent of a particular toolkit, special efforts have been made to make it directly useful for VTK and ITK. Besides supporting model building for most data representations used by VTK and ITK, it also provides an ITK transform class, which allows for the integration of Statismo with the ITK registration framework. This leverages the efforts from the ITK project to readily access powerful methods for model fitting.},
   file         = {:PDF/Luethi-Statismo-2012.pdf:PDF},
-  groups       = {Meshing},
+  groups       = {Meshing, SSM},
   howpublished = {\url{http://hdl.handle.net/10380/3371}},
   institution  = {University of Basel},
   keywords     = {Statistical Shape Models, Registration, Statistical Deformation Models, pssi},
@@ -4102,12 +4102,13 @@ Since the first description of orbital blow-out fractures, there has been much c
 
 @Article{Bittermann2014,
   author    = {Bittermann, Gido and Metzger, Marc Christian and Schlager, Stefan and Lagr{\`e}ze, Wolf Alexander and Gross, Nikolai and Cornelius, Carl-Peter and Schmelzeisen, Rainer},
-  title     = {Orbital Reconstruction: Prefabricated Implants, Data Transfer, and Revision Surgery},
   journal   = {Facial Plastic Surgery},
+  title     = {Orbital Reconstruction: Prefabricated Implants, Data Transfer, and Revision Surgery},
   year      = {2014},
-  volume    = {30},
   number    = {05},
   pages     = {554--560},
+  volume    = {30},
+  doi       = {10.1055/s-0034-1395211},
   file      = {:PDF/2014-bittermann-clinical-orbits.pdf:PDF},
   groups    = {Orbita, Clinical Lit Orbita, Medical Applications},
   owner     = {schlager},
@@ -8282,17 +8283,18 @@ https://github.com/zarquon42b/Morpho},
 }
 
 @Article{Cootes1992,
-  Title                    = {Trainable method of parametric shape description},
-  Author                   = {Cootes, Tim F and Cooper, David H and Taylor, Christopher J and Graham, Jim},
-  Journal                  = {Image and Vision Computing},
-  Year                     = {1992},
-  Number                   = {5},
-  Pages                    = {289--294},
-  Volume                   = {10},
-  Owner                    = {ruedell},
-  Publisher                = {Elsevier},
-  Timestamp                = {2013.05.25},
-  Url                      = {http://www.sciencedirect.com/science/article/pii/0262885692900444}
+  author    = {Cootes, Tim F and Cooper, David H and Taylor, Christopher J and Graham, Jim},
+  journal   = {Image and Vision Computing},
+  title     = {Trainable method of parametric shape description},
+  year      = {1992},
+  number    = {5},
+  pages     = {289--294},
+  volume    = {10},
+  groups    = {SSM},
+  owner     = {ruedell},
+  publisher = {Elsevier},
+  timestamp = {2013.05.25},
+  url       = {http://www.sciencedirect.com/science/article/pii/0262885692900444},
 }
 
 @Article{Kent1994,
@@ -11051,7 +11053,7 @@ The landmarks were used to establish an initial spatial orientation within the s
   Volume                   = {222},
   Abstract                 = {PURPOSE: To develop a computer-aided diagnosis (CAD) scheme for automated detection of colonic polyps on the basis of volumetric features and to assess its accuracy on the basis of colonoscopy, the standard.MATERIALS AND METHODS: Computed tomographic (CT) colonography was performed in patients with use of standard bowel cleansing, air insufflation, and helical scanning in supine and prone positions. The colon was extracted from volumetric data sets generated from transverse CT sections. Volumetric features characterizing polyps were computed at each point in the extracted colon. Polyps were detected by means of hysteresis thresholding and fuzzy clustering followed by a rule-based test on the basis of feature values. Locations of the detected polyps were compared with those detected at conventional colonoscopy.RESULTS: Forty-one cases were analyzed: nine cases with polyps and 32 without polyps. Each case with polyps had one polyp of clinically important size (six were 5-9 mm; three, 10 mm). Thus, there were 82 volumetric data sets, 18 included polyps. Eighty-nine percent (16 of 18) of the polyps were detected. Each of the two false-negative findings was detected in the other position; thus, 100% of polyp cases were detected, with 2.5 false-positive findings per patient. The false-positive findings were similar to those due to common perceptual errors. Most of the false-positive findings were easily distinguishable from true polyps by experienced radiologists.CONCLUSION: The CAD scheme has the potential to depict polyps with high sensitivity and an acceptable false-positive rate.},
   Comment                  = {10.1148/radiol.2222010506},
-  File                     = {:/media/Morpho/Literatur/PDF/YoshidaEtAl-computerizedDetection.pdf:PDF},
+  File                     = {:PDF/YoshidaEtAl-computerizedDetection.pdf:PDF},
   Owner                    = {ruedell},
   Timestamp                = {2012.01.23},
   Url                      = {http://radiology.rsna.org/content/222/2/327.abstract}
@@ -11185,7 +11187,7 @@ The landmarks were used to establish an initial spatial orientation within the s
   Author                   = {G{\'e}rard Subsol and Gilles Gesquiere and Jos{\'e} Braga and Francis Thackeray},
   Booktitle                = {Annual meeting of the AAPA, Albuquerque, April 17 2010 Symposium on computational methods for the automated analysis of virtual hominid endocasts},
   Year                     = {2010},
-  File                     = {:/media/Morpho/Literatur/PDF/subsolEtAl-aapa2010presentation.pdf:PDF},
+  File                     = {:PDF/subsolEtAl-aapa2010presentation.pdf:PDF},
   Owner                    = {ruedell},
   Timestamp                = {2011.10.22},
   Url                      = {http://3dmorphine.inria.fr/doku.php?id=symposium}
@@ -16648,18 +16650,19 @@ naja, eher geschwafel. nett, wenn man zitate sucht... zitiert von wilkinson2010}
 }
 
 @Article{Cootes1999,
-  Title                    = {A mixture model for representing shape variation},
-  Author                   = {Cootes, T.F. and Taylor, C.J.},
-  Journal                  = {Image and Vision Computing},
-  Year                     = {1999},
-  Number                   = {8},
-  Pages                    = {567-573},
-  Volume                   = {17},
-  Endnotereftype           = {Journal Article},
-  File                     = {:PDF/CootesTaylor-AMixtureModelForRepresentingShapeVariation.pdf:PDF},
-  Owner                    = {guyomarch},
-  Shorttitle               = {A mixture model for representing shape variation},
-  Timestamp                = {2010.04.22}
+  author         = {Cootes, T.F. and Taylor, C.J.},
+  journal        = {Image and Vision Computing},
+  title          = {A mixture model for representing shape variation},
+  year           = {1999},
+  number         = {8},
+  pages          = {567-573},
+  volume         = {17},
+  endnotereftype = {Journal Article},
+  file           = {:PDF/CootesTaylor-AMixtureModelForRepresentingShapeVariation.pdf:PDF},
+  groups         = {SSM},
+  owner          = {guyomarch},
+  shorttitle     = {A mixture model for representing shape variation},
+  timestamp      = {2010.04.22},
 }
 
 @Article{Cootes2002,
@@ -16676,17 +16679,18 @@ naja, eher geschwafel. nett, wenn man zitate sucht... zitiert von wilkinson2010}
 }
 
 @Article{Cootes2008,
-  Title                    = {Diffeomorphic statistical shape models},
-  Author                   = {Cootes, T.F. and Twining, C.J. and Babaloba, K.O. and Taylor, C.J.},
-  Journal                  = {Image and Vision Computing},
-  Year                     = {2008},
-  Note                     = {P},
-  Pages                    = {326-332},
-  Volume                   = {26},
-  Endnotereftype           = {Journal Article},
-  Owner                    = {guyomarch},
-  Shorttitle               = {Diffeomorphic statistical shape models},
-  Timestamp                = {2010.04.22}
+  author         = {Cootes, T.F. and Twining, C.J. and Babaloba, K.O. and Taylor, C.J.},
+  journal        = {Image and Vision Computing},
+  title          = {Diffeomorphic statistical shape models},
+  year           = {2008},
+  note           = {P},
+  pages          = {326-332},
+  volume         = {26},
+  endnotereftype = {Journal Article},
+  groups         = {SSM},
+  owner          = {guyomarch},
+  shorttitle     = {Diffeomorphic statistical shape models},
+  timestamp      = {2010.04.22},
 }
 
 @Article{Coqueugniot2002,
@@ -23198,7 +23202,7 @@ naja, eher geschwafel. nett, wenn man zitate sucht... zitiert von wilkinson2010}
   pages          = {1-17},
   volume         = {11},
   endnotereftype = {Journal Article},
-  file           = {:/media/storage/Home/Publikationen/Literature/PDF/Rohlf_shape_spaces_1999.pdf:PDF},
+  file           = {:PDF/Rohlf_shape_spaces_1999.pdf:PDF},
   groups         = {2022 Cardini},
   owner          = {guyomarch},
   shorttitle     = {On the use of shape spaces to compare morphometric methods},
@@ -24205,17 +24209,18 @@ naja, eher geschwafel. nett, wenn man zitate sucht... zitiert von wilkinson2010}
 
 @InCollection{Slice2005,
   author         = {Slice, D.E.},
-  title          = {Modern morphometrics},
   booktitle      = {Modern Morphometrics in Physical Anthropology},
   publisher      = {Kluwer Academic / Plenum Publishers},
+  title          = {Modern morphometrics},
   year           = {2005},
-  editor         = {Slice, D.E.},
-  series         = {Developments in Primatology: Progress and Prospects},
-  pages          = {1-45},
   address        = {Chicago, IL},
+  editor         = {Slice, D.E.},
   note           = {MG},
+  pages          = {1-45},
+  series         = {Developments in Primatology: Progress and Prospects},
   doi            = {http://dx.doi.org/10.1007/0-387-27614-9_1},
   endnotereftype = {Book Section},
+  file           = {:PDF/Dennis E. Slice - Modern Morphometrics in Physical Anthropology -Springer (2010).pdf:PDF},
   groups         = {IntroductionIntoGM, MarcMandible},
   owner          = {guyomarch},
   shorttitle     = {Modern morphometrics},
@@ -27109,7 +27114,7 @@ naja, eher geschwafel. nett, wenn man zitate sucht... zitiert von wilkinson2010}
   citeulike-article-id = {1372529},
   citeulike-linkout-0  = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.58.1455},
   file                 = {:PDF\\Cootes-Statistical Models of Appearance.pdf:PDF},
-  groups               = {Methods, Meshing},
+  groups               = {Methods, Meshing, SSM},
   keywords             = {aam, asm, shape},
   owner                = {schlager},
   posted-at            = {2007-09-26 12:03:38},
@@ -28734,13 +28739,14 @@ In this study, a symmetric template mesh representing the orbital region was cre
 
 @Article{Luethi2016,
   author         = {Marcel L{\"u}thi and Christoph Jud and Thomas Gerig and Thomas Vetter},
-  title          = {Gaussian Process Morphable Models},
   journal        = {CoRR},
+  title          = {Gaussian Process Morphable Models},
   year           = {2016},
   volume         = {abs/1603.07254},
   abstract       = {Statistical shape models (SSMs) represent a class of shapes as a normal distribution of point variations, whose parameters are estimated from example shapes. Principal component analysis (PCA) is applied to obtain a low-dimensional representation of the shape variation in terms of the leading principal components. In this paper, we propose a generalization of SSMs, called Gaussian Process Morphable Models (GPMMs). We model the shape variations with a Gaussian process, which we represent using the leading components of its Karhunen-Loeve expansion. To compute the expansion, we make use of an approximation scheme based on the Nystrom method. The resulting model can be seen as a continuous analogon of an SSM. However, while for SSMs the shape variation is restricted to the span of the example data, with GPMMs we can define the shape variation using any Gaussian process. For example, we can build shape models that correspond to classical spline models, and thus do not require any example data. Furthermore, Gaussian processes make it possible to combine different models. For example, an SSM can be extended with a spline model, to obtain a model that incorporates learned shape characteristics, but is flexible enough to explain shapes that cannot be represented by the SSM. We introduce a simple algorithm for fitting a GPMM to a surface or image. This results in a non-rigid registration approach, whose regularization properties are defined by a GPMM. We show how we can obtain different registration schemes,including methods for multi-scale, spatially-varying or hybrid registration, by constructing an appropriate GPMM. As our approach strictly separates modelling from the fitting process, this is all achieved without changes to the fitting algorithm. We show the applicability and versatility of GPMMs on a clinical use case, where the goal is the model-based segmentation of 3D forearm images.},
   eprint         = {1603.07254},
   file           = {:PDF/Luethi2016.pdf:PDF},
+  groups         = {SSM},
   oai2identifier = {1603.07254},
   owner          = {schlager},
   timestamp      = {2016.06.08},
@@ -30374,13 +30380,14 @@ Our results confirm that the cranium, as a whole, and the temporal bone can be u
 
 @InProceedings{Luethi2009b,
   author    = {Marcel L{\"u}thi and Thomas Albrecht and Thomas Vetter},
-  title     = {Building shape models from lousy data},
   booktitle = {International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  title     = {Building shape models from lousy data},
   year      = {2009},
-  volume    = {5762},
-  series    = {Lecture Notes in Computer Science},
   pages     = {1-8},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5762},
   file      = {:PDF/LuethiEtAl-BuildingShapeModelsFromLousyData.pdf:PDF},
+  groups    = {SSM},
   owner     = {ruedell},
   timestamp = {2016.10.18},
   url       = {http://link.springer.com/chapter/10.1007/978-3-642-04271-3_1},
@@ -31698,18 +31705,6 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   url       = {https://arxiv.org/abs/1712.08364},
 }
 
-@Article{Profico2018,
-  author    = {Antonio Profico and Stefan Schlager and Veronica Valoriani and Costantino Buzi and Marina Melchionna and Alessio Veneziano and Pasquale Raia and Jacopo Moggi-Cecchi and Giorgio Manzi},
-  title     = {Reproducing the internal and external anatomy of fossil bones: Two new automatic digital tools},
-  journal   = {American Journal of Physical Anthropology},
-  year      = {2018},
-  month     = {apr},
-  doi       = {10.1002/ajpa.23493},
-  owner     = {schlager},
-  publisher = {Wiley},
-  timestamp = {2018.04.23},
-}
-
 @Article{Schlager2018,
   author    = {Schlager, Stefan AND Profico, Antonio AND Di Vincenzo, Fabio AND Manzi, Giorgio},
   title     = {Retrodeformation of fossil specimens based on 3D bilateral semi-landmarks: Implementation in the {R} package "{M}orpho"},
@@ -32086,13 +32081,13 @@ Historians have drawn a line between scientific racism, exemplified in the typol
 
 @Article{WardJr1963,
   author    = {Ward Jr, Joe H},
-  title     = {Hierarchical grouping to optimize an objective function},
   journal   = {Journal of the American statistical association},
+  title     = {Hierarchical grouping to optimize an objective function},
   year      = {1963},
-  volume    = {58},
   number    = {301},
   pages     = {236--244},
-  groups    = {Statistics, [schlager:]},
+  volume    = {58},
+  groups    = {Statistics},
   owner     = {schlager},
   publisher = {Taylor \& Francis Group},
   timestamp = {2018.09.21},
@@ -32105,7 +32100,6 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   year      = {2018},
   doi       = {https://doi.org/10.1016/j.jhevol.2018.07.008},
   file      = {:PDF/Presnyakova2018.pdf:PDF},
-  groups    = {schlager:6},
   owner     = {schlager},
   publisher = {Elsevier},
   timestamp = {2018.10.02},
@@ -32197,10 +32191,13 @@ Historians have drawn a line between scientific racism, exemplified in the typol
 
 @Article{Engel2019,
   author    = {Felix Engel and Stefan Schlager},
-  title     = {{RDFBones} {\textendash} making research explicit: an extensible digital standard for research data},
   journal   = {Anthropologischer Anzeiger},
+  title     = {{RDFBones} {\textendash} making research explicit: an extensible digital standard for research data},
   year      = {2019},
   month     = {mar},
+  number    = {3},
+  pages     = {245 - 257},
+  volume    = {76},
   doi       = {10.1127/anthranz/2019/0882},
   file      = {:PDF/RDFBones_Engel_Schlager_2019.pdf:PDF;:PDF/RDFBones_Engel_Schlager_2019_prepub.pdf:PDF},
   owner     = {schlager},
@@ -32288,6 +32285,7 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   address                = {United States},
   article-doi            = {10.1016/j.prosdent.2021.03.007},
   article-pii            = {S0022-3913(21)00145-1},
+  doi                    = {https://doi.org/10.1016/j.prosdent.2021.03.007},
   electronic-issn        = {1097-6841},
   electronic-publication = {20210423},
   file                   = {:PDF/Kernen_2021_Intraoral.pdf:PDF},
@@ -32512,7 +32510,7 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   volume    = {17},
   doi       = {10.1371/journal.pone.0261885},
   editor    = {Lucy J. Troup},
-  file      = {:/media/storage/Home/Publikationen/Literature/PDF/Gabri_ChangesInCannabisUse_2022.pdf:PDF},
+  file      = {:PDF/Gabri_ChangesInCannabisUse_2022.pdf:PDF},
   publisher = {Public Library of Science ({PLoS})},
 }
 
@@ -32526,7 +32524,7 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   pages     = {49--65},
   volume    = {87},
   doi       = {10.1002/ajpa.1330870106},
-  file      = {:/media/storage/Home/Publikationen/Literature/PDF/lele_&_richtsmeier_EDMA_1992.pdf:PDF},
+  file      = {:PDF/lele_&_richtsmeier_EDMA_1992.pdf:PDF},
   groups    = {2022 Cardini},
   publisher = {Wiley},
 }
@@ -32541,7 +32539,7 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   pages     = {167--176},
   volume    = {37},
   doi       = {10.1002/smj.2459},
-  file      = {:/media/storage/Home/Publikationen/Literature/PDF/Goldfarb_et_al-2016-Strategic_Management_Journal.pdf:PDF},
+  file      = {:PDF/Goldfarb_et_al-2016-Strategic_Management_Journal.pdf:PDF},
   publisher = {Wiley},
 }
 
@@ -32555,7 +32553,7 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   pages     = {271--302},
   volume    = {46},
   doi       = {10.1007/s11692-019-09484-8},
-  file      = {:/media/storage/Home/Publikationen/Literature/PDF/Bookstein2019_Article_PathologiesOfBetween-GroupsPri.pdf:PDF},
+  file      = {:PDF/Bookstein2019_Article_PathologiesOfBetween-GroupsPri.pdf:PDF},
   publisher = {Springer Science and Business Media {LLC}},
 }
 
@@ -32600,6 +32598,587 @@ Historians have drawn a line between scientific racism, exemplified in the typol
   publisher = {{MDPI} {AG}},
 }
 
+@Article{Brandenburg2022b,
+  author   = {Brandenburg, Leonard Simon and Berger, Lukas and Schwarz, Steffen Jochen and Meine, Hans and Weingart, Julia Vera and Steybe, David and Spies, Benedikt Christopher and Burkhardt, Felix and Schlager, Stefan and Metzger, Marc Christian},
+  journal  = {International Journal of Computer Assisted Radiology and Surgery},
+  title    = {Reconstruction of dental roots for implant planning purposes: a feasibility study},
+  year     = {2022},
+  issn     = {1861-6429},
+  abstract = {Modern virtual implant planning is a time-consuming procedure, requiring a careful assessment of prosthetic and anatomical factors within a three-dimensional dataset. In order to facilitate the planning process and provide additional information, this study examines a statistical shape model (SSM) to compute the course of dental roots based on a surface scan.},
+  doi      = {10.1007/s11548-022-02716-x},
+  refid    = {Brandenburg2022},
+  url      = {https://doi.org/10.1007/s11548-022-02716-x},
+}
+
+@Article{Steybe2022,
+  author    = {David Steybe and Philipp Poxleitner and Marc C. Metzger and Rainer Schmelzeisen and Maximilian F. Russe and Marc Anton Fuessinger and Leonard S. Brandenburg and Pit J. Voss and Stefan Schlager},
+  journal   = {Head {\&} Neck},
+  title     = {Analysis of the accuracy of computer-assisted {DCIA} flap mandibular reconstruction applying a novel approach based on geometric morphometrics},
+  year      = {2022},
+  month     = {sep},
+  doi       = {10.1002/hed.27196},
+  publisher = {Wiley},
+}
+
+@Book{Wilson2010a,
+  author    = {Wilson, David Sloan},
+  publisher = {University of Chicago Press},
+  title     = {Darwin's Cathedral Evolution, Religion, and the Nature of Society},
+  year      = {2010},
+  isbn      = {9780226901374},
+  groups    = {Behavioral Biology},
+  subtitle  = {Evolution, Religion, and the Nature of Society},
+}
+
+@Book{Sapolsky2017,
+  author    = {Sapolsky, Robert M.},
+  publisher = {Penguin Press},
+  title     = {Behave},
+  year      = {2017},
+  isbn      = {9781594205071},
+  groups    = {Behavioral Biology},
+  pages     = {790},
+  subtitle  = {The Biology of Humans at Our Best and Worst},
+}
+
+@Article{Profico2018a,
+  author   = {Profico, Antonio and Schlager, Stefan and Valoriani, Veronica and Buzi, Costantino and Melchionna, Marina and Veneziano, Alessio and Raia, Pasquale and Moggi-Cecchi, Jacopo and Manzi, Giorgio},
+  journal  = {American Journal of Physical Anthropology},
+  title    = {Reproducing the internal and external anatomy of fossil bones: Two new automatic digital tools},
+  year     = {2018},
+  number   = {4},
+  pages    = {979-986},
+  volume   = {166},
+  abstract = {Abstract Objectives We present two new automatic tools, developed under the R environment, to reproduce the internal and external structures of bony elements. The first method, Computer-Aided Laser Scanner Emulator (CA-LSE), provides the reconstruction of the external portions of a 3D mesh by simulating the action of a laser scanner. The second method, Automatic Segmentation Tool for 3D objects (AST-3D), performs the digital reconstruction of anatomical cavities. Materials and methods We present the application of CA-LSE and AST-3D methods to different anatomical remains, highly variable in terms of shape, size and structure: a modern human skull, a malleus bone, and a Neanderthal deciduous tooth. Both methods are developed in the R environment and embedded in the packages “Arothron” and “Morpho,” where both the codes and the data are fully available. Results The application of CA-LSE and AST-3D allows the isolation and manipulation of the internal and external components of the 3D virtual representation of complex bony elements. In particular, we present the output of the four case studies: a complete modern human endocast and the right maxillary sinus, the dental pulp of the Neanderthal tooth and the inner network of blood vessels of the malleus. Discussion Both methods demonstrated to be much faster, cheaper, and more accurate than other conventional approaches. The tools we presented are available as add-ons in existing software within the R platform. Because of ease of application, and unrestrained availability of the methods proposed, these tools can be widely used by paleoanthropologists, paleontologists and anatomists.},
+  doi      = {https://doi.org/10.1002/ajpa.23493},
+  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/ajpa.23493},
+  keywords = {endocast, human evolution, malleus bone, maxillary sinuses, virtual anthropology},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/ajpa.23493},
+}
+
+@Manual{RCT2022,
+  title        = {R: A Language and Environment for Statistical Computing},
+  address      = {Vienna, Austria},
+  author       = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  year         = {2022},
+  url          = {https://www.R-project.org/},
+}
+
+@Article{Adams2023,
+  author    = {Adams, Jadie},
+  journal   = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  title     = {Probabilistic Shape Models of Anatomy Directly from Images},
+  year      = {2023},
+  issn      = {2159-5399},
+  month     = jun,
+  number    = {13},
+  pages     = {16107--16108},
+  volume    = {37},
+  doi       = {10.1609/aaai.v37i13.26914},
+  file      = {:PDF/Adams_PSSM_from_Images_2023.pdf:PDF},
+  groups    = {AI, SSM},
+  publisher = {Association for the Advancement of Artificial Intelligence (AAAI)},
+}
+
+@Article{Bhalodia2021,
+  author        = {Bhalodia, Riddhish and Elhabian, Shireen and Adams, Jadie and Tao, Wenzheng and Kavan, Ladislav and Whitaker, Ross},
+  title         = {DeepSSM: A Blueprint for Image-to-Shape Deep Learning Models},
+  year          = {2021},
+  month         = oct,
+  abstract      = {Statistical shape modeling (SSM) characterizes anatomical variations in a population of shapes generated from medical images. SSM requires consistent shape representation across samples in shape cohort. Establishing this representation entails a processing pipeline that includes anatomy segmentation, re-sampling, registration, and non-linear optimization. These shape representations are then used to extract low-dimensional shape descriptors that facilitate subsequent analyses in different applications. However, the current process of obtaining these shape descriptors from imaging data relies on human and computational resources, requiring domain expertise for segmenting anatomies of interest. Moreover, this same taxing pipeline needs to be repeated to infer shape descriptors for new image data using a pre-trained/existing shape model. Here, we propose DeepSSM, a deep learning-based framework for learning the functional mapping from images to low-dimensional shape descriptors and their associated shape representations, thereby inferring statistical representation of anatomy directly from 3D images. Once trained using an existing shape model, DeepSSM circumvents the heavy and manual pre-processing and segmentation and significantly improves the computational time, making it a viable solution for fully end-to-end SSM applications. In addition, we introduce a model-based data-augmentation strategy to address data scarcity. Finally, this paper presents and analyzes two different architectural variants of DeepSSM with different loss functions using three medical datasets and their downstream clinical application. Experiments showcase that DeepSSM performs comparably or better to the state-of-the-art SSM both quantitatively and on application-driven downstream tasks. Therefore, DeepSSM aims to provide a comprehensive blueprint for deep learning-based image-to-shape models.},
+  archiveprefix = {arXiv},
+  copyright     = {arXiv.org perpetual, non-exclusive license},
+  doi           = {10.48550/ARXIV.2110.07152},
+  eprint        = {2110.07152},
+  file          = {:Bhalodia2021 - DeepSSM_ a Blueprint for Image to Shape Deep Learning Models.pdf:PDF},
+  groups        = {AI},
+  keywords      = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), FOS: Computer and information sciences},
+  primaryclass  = {cs.CV},
+  publisher     = {arXiv},
+}
+
+@Article{Courtenay2024,
+  author    = {Courtenay, Lloyd A. and Aramendi, Julia and González-Aguilera, Diego},
+  journal   = {Evolutionary Biology},
+  title     = {A Graph-Based Mathematical Model for More Efficient Dimensionality Reduction of Landmark Data in Geometric Morphometrics},
+  year      = {2024},
+  issn      = {1934-2845},
+  month     = apr,
+  doi       = {10.1007/s11692-024-09636-5},
+  groups    = {Machine Learning},
+  publisher = {Springer Science and Business Media LLC},
+  url       = {https://link.springer.com/epdf/10.1007/s11692-024-09636-5?sharing_token=GByo5OYD1XdMwuDaCsoKTPe4RwlQNchNByi7wbcMAY6NQs_MgC2ENicDamHbUz8FIz8JtnfnL68wLXR-Nssp_OI-Gm7jdwAMVqZicldeEtvJP0kH5oIaLOSjQinOP74MvQnmkAf3esq9EQI_vXhqwpF0ntHo_8g_Z64Ljr52Nh4=},
+}
+
+@Article{Haeusler1995,
+  author    = {Häusler, Martin and Schmid, Peter},
+  journal   = {J. Hum. Evol.},
+  title     = {Comparison of the pelves of {S}ts 14 and {AL288-1}: implications for birth and sexual dimorphism in australopithecines},
+  year      = {1995},
+  issn      = {0047-2484},
+  month     = oct,
+  number    = {4},
+  pages     = {363--383},
+  volume    = {29},
+  doi       = {10.1006/jhev.1995.1063},
+  fjournal  = {Journal of Human Evolution},
+  groups    = {Os Coxae Fossils},
+  publisher = {Elsevier BV},
+}
+
+@Article{Berge2010,
+  author    = {Berge, Christine and Goularas, Dionysis},
+  journal   = {J. Hum. Evol.},
+  title     = {A new reconstruction of {S}ts 14 pelvis (Australopithecus africanus) from computed tomography and three-dimensional modeling techniques},
+  year      = {2010},
+  issn      = {0047-2484},
+  month     = mar,
+  number    = {3},
+  pages     = {262--272},
+  volume    = {58},
+  doi       = {10.1016/j.jhevol.2009.11.006},
+  fjournal  = {Journal of Human Evolution},
+  groups    = {Os Coxae Fossils},
+  publisher = {Elsevier BV},
+}
+
+@Article{Adegboyega2021,
+  author    = {Adegboyega, Mayowa T. and Stamos, Peter A. and Hublin, Jean-Jacques and Weaver, Timothy D.},
+  journal   = {J. Hum. Evol.},
+  title     = {Virtual reconstruction of the {Kebara} 2 Neanderthal pelvis},
+  year      = {2021},
+  issn      = {0047-2484},
+  month     = feb,
+  pages     = {102922},
+  volume    = {151},
+  doi       = {10.1016/j.jhevol.2020.102922},
+  fjournal  = {Journal of Human Evolution},
+  groups    = {Os Coxae Fossils},
+  publisher = {Elsevier BV},
+}
+
+@Article{Laudicina2019,
+  author    = {Laudicina, Natalie M. and Rodriguez, Frankee and DeSilva, Jeremy M.},
+  journal   = {PLOS ONE},
+  title     = {Reconstructing birth in Australopithecus sediba},
+  year      = {2019},
+  issn      = {1932-6203},
+  month     = sep,
+  number    = {9},
+  pages     = {e0221871},
+  volume    = {14},
+  doi       = {10.1371/journal.pone.0221871},
+  editor    = {Rosenberg, Karen},
+  groups    = {Os Coxae Fossils},
+  publisher = {Public Library of Science (PLoS)},
+}
+
+@Article{Kibii2011,
+  author    = {Kibii, Job M. and Churchill, Steven E. and Schmid, Peter and Carlson, Kristian J. and Reed, Nichelle D. and de Ruiter, Darryl J. and Berger, Lee R.},
+  journal   = {Sci},
+  title     = {A Partial Pelvis of Australopithecus sediba},
+  year      = {2011},
+  issn      = {1095-9203},
+  month     = sep,
+  number    = {6048},
+  pages     = {1407--1411},
+  volume    = {333},
+  doi       = {10.1126/science.1202521},
+  fjournal  = {Science},
+  groups    = {Os Coxae Fossils},
+  publisher = {American Association for the Advancement of Science (AAAS)},
+}
+
+@Article{Brassey2018,
+  author    = {Brassey, Charlotte A. and O’Mahoney, Thomas G. and Chamberlain, Andrew T. and Sellers, William I.},
+  journal   = {J. Hum. Evol.},
+  title     = {A volumetric technique for fossil body mass estimation applied to Australopithecus afarensis},
+  year      = {2018},
+  issn      = {0047-2484},
+  month     = feb,
+  pages     = {47--64},
+  volume    = {115},
+  doi       = {10.1016/j.jhevol.2017.07.014},
+  fjournal  = {Journal of Human Evolution},
+  groups    = {Os Coxae Fossils},
+  publisher = {Elsevier BV},
+}
+
+@Article{Hershkovitz1995,
+  author    = {Hershkovitz, I. and Speirs, M. S. and Frayer, D. and Nadel, D. and Wish‐Baratz, S. and Arensburg, B.},
+  journal   = {Am. J. Phys. Anthropol.},
+  title     = {Ohalo {II H2}: A 19,000‐year‐old skeleton from a water‐logged site at the Sea of Galilee, Israel},
+  year      = {1995},
+  issn      = {1096-8644},
+  month     = mar,
+  number    = {3},
+  pages     = {215--234},
+  volume    = {96},
+  doi       = {10.1002/ajpa.1330960302},
+  fjournal  = {American Journal of Physical Anthropology},
+  groups    = {Os Coxae Fossils},
+  publisher = {Wiley},
+}
+
+@Article{Kappelman2016,
+  author    = {Kappelman, John and Ketcham, Richard A. and Pearce, Stephen and Todd, Lawrence and Akins, Wiley and Colbert, Matthew W. and Feseha, Mulugeta and Maisano, Jessica A. and Witzel, Adrienne},
+  journal   = {Nat},
+  title     = {Perimortem fractures in {Lucy} suggest mortality from fall out of tall tree},
+  year      = {2016},
+  issn      = {1476-4687},
+  month     = aug,
+  number    = {7621},
+  pages     = {503--507},
+  volume    = {537},
+  doi       = {10.1038/nature19332},
+  fjournal  = {Nature},
+  groups    = {Os Coxae Fossils},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Yuan2024,
+  author    = {Yuan, Ping and Huang, Zhen-Hao and Yang, Yun-Hai and Bao, Fei-Chao and Sun, Ke and Chao, Fang-Fang and Liu, Ting-Ting and Zhang, Jing-Jing and Xu, Jin-Ming and Li, Xiang-Nan and Li, Feng and Ma, Tao and Li, Hao and Li, Zi-Hao and Zhang, Shan-Feng and Hu, Jian and Qi, Yu},
+  journal   = {Cancer Imaging},
+  title     = {A 18F-FDG PET/CT-based deep learning-radiomics-clinical model for prediction of cervical lymph node metastasis in esophageal squamous cell carcinoma},
+  year      = {2024},
+  issn      = {1470-7330},
+  month     = nov,
+  number    = {1},
+  volume    = {24},
+  doi       = {10.1186/s40644-024-00799-0},
+  file      = {:PDF/Yuan_PETCT_Radiomics_2025.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Soffer2019,
+  author    = {Soffer, Shelly and Ben-Cohen, Avi and Shimon, Orit and Amitai, Michal Marianne and Greenspan, Hayit and Klang, Eyal},
+  journal   = {Radiology},
+  title     = {Convolutional Neural Networks for Radiologic Images: A Radiologist’s Guide},
+  year      = {2019},
+  issn      = {1527-1315},
+  month     = mar,
+  number    = {3},
+  pages     = {590--606},
+  volume    = {290},
+  doi       = {10.1148/radiol.2018180547},
+  file      = {:PDF/soffer2019_CNN.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Radiological Society of North America (RSNA)},
+}
+
+@Article{Lou2019,
+  author    = {Lou, Bin and Doken, Semihcan and Zhuang, Tingliang and Wingerter, Danielle and Gidwani, Mishka and Mistry, Nilesh and Ladic, Lance and Kamen, Ali and Abazeed, Mohamed E},
+  journal   = {The Lancet Digital Health},
+  title     = {An image-based deep learning framework for individualising radiotherapy dose: a retrospective analysis of outcome prediction},
+  year      = {2019},
+  issn      = {2589-7500},
+  month     = jul,
+  number    = {3},
+  pages     = {e136--e147},
+  volume    = {1},
+  doi       = {10.1016/s2589-7500(19)30058-5},
+  file      = {:PDF/Lou_DL_framework_2019.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Elsevier BV},
+}
+
+@Article{Stefano2024,
+  author    = {Stefano, Alessandro},
+  journal   = {Computers in Biology and Medicine},
+  title     = {Challenges and limitations in applying radiomics to PET imaging: Possible opportunities and avenues for research},
+  year      = {2024},
+  issn      = {0010-4825},
+  month     = sep,
+  pages     = {108827},
+  volume    = {179},
+  doi       = {10.1016/j.compbiomed.2024.108827},
+  file      = {:PDF/Stefano_Radiomics_PET_2024.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Elsevier BV},
+}
+
+@Article{JimenezMesa2023,
+  author    = {Jimenez-Mesa, Carmen and Arco, Juan E. and Martinez-Murcia, Francisco Jesus and Suckling, John and Ramirez, Javier and Gorriz, Juan Manuel},
+  journal   = {Pharmacological Research},
+  title     = {Applications of machine learning and deep learning in SPECT and PET imaging: General overview, challenges and future prospects},
+  year      = {2023},
+  issn      = {1043-6618},
+  month     = nov,
+  pages     = {106984},
+  volume    = {197},
+  doi       = {10.1016/j.phrs.2023.106984},
+  file      = {:PDF/Jimenez-Mesa-DL_SPECT.vs.PET_2023.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Elsevier BV},
+}
+
+@Article{Borys2023,
+  author    = {Borys, Katarzyna and Schmitt, Yasmin Alyssa and Nauta, Meike and Seifert, Christin and Krämer, Nicole and Friedrich, Christoph M. and Nensa, Felix},
+  journal   = {European Journal of Radiology},
+  title     = {Explainable AI in medical imaging: An overview for clinical practitioners – Saliency-based XAI approaches},
+  year      = {2023},
+  issn      = {0720-048X},
+  month     = may,
+  pages     = {110787},
+  volume    = {162},
+  doi       = {10.1016/j.ejrad.2023.110787},
+  file      = {:PDF/Borys_XAI_2023.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Elsevier BV},
+}
+
+@Article{Martinez2012,
+  author        = {Martinez, Oscar},
+  title         = {An Efficient Algorithm to Calculate the Center of the Biggest Inscribed Circle in an Irregular Polygon},
+  year          = {2012},
+  month         = dec,
+  abstract      = {In this paper, an efficient algorithm to find the center of the biggest circle inscribed in a given polygon is described. This work was inspired by the publication of Daniel Garcia-Castellanos & Umberto Lombardo and their algorithm used to find a landmass' poles of inaccessibility. Two more efficient algorithms were found, one of them only applicable when the problem can be described as a linear problem, like in the case of a convex polygon. Keywords: distance geometry, euclidean distance, inscribed circle, irregular polygon, algorithm, mathematical optimization, Monte Carlo, linear programming, maximin},
+  archiveprefix = {arXiv},
+  copyright     = {arXiv.org perpetual, non-exclusive license},
+  doi           = {10.48550/ARXIV.1212.3193},
+  eprint        = {1212.3193},
+  file          = {:Martinez2012 - An Efficient Algorithm to Calculate the Center of the Biggest Inscribed Circle in an Irregular Polygon.pdf:PDF:https\://arxiv.org/pdf/1212.3193v1},
+  groups        = {Torres Ellipses},
+  keywords      = {Metric Geometry (math.MG), Data Structures and Algorithms (cs.DS), FOS: Mathematics, FOS: Computer and information sciences, 51K99},
+  primaryclass  = {math.MG},
+  publisher     = {arXiv},
+}
+
+@InProceedings{Xie2006,
+  author     = {Xie, Yulai and Snoeyink, Jack and Xu, Jinhui},
+  booktitle  = {Proceedings of the twenty-second annual symposium on Computational geometry},
+  title      = {Efficient algorithm for approximating maximum inscribed sphere in high dimensional polytope},
+  year       = {2006},
+  month      = jun,
+  pages      = {21--29},
+  publisher  = {ACM},
+  series     = {SoCG06},
+  collection = {SoCG06},
+  doi        = {10.1145/1137856.1137861},
+  file       = {:Xie2006 - Efficient Algorithm for Approximating Maximum Inscribed Sphere in High Dimensional Polytope.pdf:PDF:http\://www.cse.yorku.ca/~andy/courses/6114/lecture-notes/MAX-Inscribed-Sphere.pdf},
+  groups     = {Torres Ellipses},
+}
+
+@Article{Botkin1994,
+  author    = {Botkin, N. D. and Turova-Botkina, V. L.},
+  journal   = {Applied Mathematics &amp; Optimization},
+  title     = {An algorithm for finding the Chebyshev center of a convex polyhedron},
+  year      = {1994},
+  issn      = {1432-0606},
+  month     = mar,
+  number    = {2},
+  pages     = {211--222},
+  volume    = {29},
+  doi       = {10.1007/bf01204183},
+  file      = {:PDF/CHEBNEW2.PDF.pdf:PDF},
+  groups    = {Torres Ellipses},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Amaral2025,
+  author    = {Amaral, T. and Ottaviano, M. and Arance, A. and Blank, C. and Chiarion-Sileni, V. and Donia, M. and Dummer, R. and Garbe, C. and Gershenwald, J.E. and Gogas, H. and Guckenberger, M. and Haanen, J. and Hamid, O. and Hauschild, A. and Höller, C. and Lebbé, C. and Lee, R.J. and Long, G.V. and Lorigan, P. and Muñoz Couselo, E. and Nathan, P. and Robert, C. and Romano, E. and Schadendorf, D. and Sondak, V. and Suijkerbuijk, K.P.M. and van Akkooi, A.C.J. and Michielin, O. and Ascierto, P.A.},
+  journal   = {Annals of Oncology},
+  title     = {Cutaneous melanoma: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up},
+  year      = {2025},
+  issn      = {0923-7534},
+  month     = jan,
+  number    = {1},
+  pages     = {10--30},
+  volume    = {36},
+  doi       = {10.1016/j.annonc.2024.11.006},
+  file      = {:PDF/Amaral_2025_cutaneous_melanoma.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Elsevier BV},
+}
+
+@Article{Grigsby2004,
+  author    = {Grigsby, Perry W. and Siegel, Barry A. and Dehdashti, Farrokh and Rader, Janet and Zoberi, Imran},
+  journal   = {Journal of Clinical Oncology},
+  title     = {Posttherapy [18F] Fluorodeoxyglucose Positron Emission Tomography in Carcinoma of the Cervix: Response and Outcome},
+  year      = {2004},
+  issn      = {1527-7755},
+  month     = jun,
+  number    = {11},
+  pages     = {2167--2171},
+  volume    = {22},
+  doi       = {10.1200/jco.2004.09.035},
+  groups    = {Radiomics},
+  publisher = {American Society of Clinical Oncology (ASCO)},
+}
+
+@Article{ShiyamSundar2024,
+  author    = {Shiyam Sundar, Lalith Kumar and Gutschmayer, Sebastian and Maenle, Marcel and Beyer, Thomas},
+  journal   = {Cancer Imaging},
+  title     = {Extracting value from total-body PET/CT image data - the emerging role of artificial intelligence},
+  year      = {2024},
+  issn      = {1470-7330},
+  month     = apr,
+  number    = {1},
+  volume    = {24},
+  doi       = {10.1186/s40644-024-00684-w},
+  file      = {:PDF/Lalit_2024_ValuePET.pdf:PDF},
+  groups    = {Radiomics},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Bradburn2003,
+  author    = {Bradburn, M J and Clark, T G and Love, S B and Altman, D G},
+  journal   = {British Journal of Cancer},
+  title     = {Survival Analysis Part II: Multivariate data analysis – an introduction to concepts and methods},
+  year      = {2003},
+  issn      = {1532-1827},
+  month     = jul,
+  number    = {3},
+  pages     = {431--436},
+  volume    = {89},
+  doi       = {10.1038/sj.bjc.6601119},
+  file      = {:PDF/Bradburn_SurvivalAnalysis_II.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Clark2003,
+  author    = {Clark, T G and Bradburn, M J and Love, S B and Altman, D G},
+  journal   = {British Journal of Cancer},
+  title     = {Survival Analysis Part I: Basic concepts and first analyses},
+  year      = {2003},
+  issn      = {1532-1827},
+  month     = jul,
+  number    = {2},
+  pages     = {232--238},
+  volume    = {89},
+  doi       = {10.1038/sj.bjc.6601118},
+  file      = {:PDF/Clark_SurvivalAnalysis_I.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Bradburn2003a,
+  author    = {Bradburn, M J and Clark, T G and Love, S B and Altman, D G},
+  journal   = {British Journal of Cancer},
+  title     = {Survival Analysis Part III: Multivariate data analysis – choosing a model and assessing its adequacy and fit},
+  year      = {2003},
+  issn      = {1532-1827},
+  month     = aug,
+  number    = {4},
+  pages     = {605--611},
+  volume    = {89},
+  doi       = {10.1038/sj.bjc.6601120},
+  file      = {:PDF/Bradburn_SurvivalAnalysis_III.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Clark2003a,
+  author    = {Clark, T G and Bradburn, M J and Love, S B and Altman, D G},
+  journal   = {British Journal of Cancer},
+  title     = {Survival Analysis Part IV: Further concepts and methods in survival analysis},
+  year      = {2003},
+  issn      = {1532-1827},
+  month     = aug,
+  number    = {5},
+  pages     = {781--786},
+  volume    = {89},
+  doi       = {10.1038/sj.bjc.6601117},
+  file      = {:PDF/Clark_SurvivalAnalysis_IV.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Wiegrebe2024,
+  author    = {Wiegrebe, Simon and Kopper, Philipp and Sonabend, Raphael and Bischl, Bernd and Bender, Andreas},
+  journal   = {Artificial Intelligence Review},
+  title     = {Deep learning for survival analysis: a review},
+  year      = {2024},
+  issn      = {1573-7462},
+  month     = feb,
+  number    = {3},
+  volume    = {57},
+  doi       = {10.1007/s10462-023-10681-3},
+  file      = {:PDF/Wiegrebe_DL_Survival_2024.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Jiang2023,
+  author    = {Jiang, Chong and Qian, Chunjun and Jiang, Zekun and Teng, Yue and Lai, Ruihe and Sun, Yiwen and Ni, Xinye and Ding, Chongyang and Xu, Yuchao and Tian, Rong},
+  journal   = {European Journal of Nuclear Medicine and Molecular Imaging},
+  title     = {Robust deep learning-based PET prognostic imaging biomarker for DLBCL patients: a multicenter study},
+  year      = {2023},
+  issn      = {1619-7089},
+  month     = aug,
+  number    = {13},
+  pages     = {3949--3960},
+  volume    = {50},
+  doi       = {10.1007/s00259-023-06405-y},
+  file      = {:PDF/Jiang_robustDL_PETCT_2023.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Salmanpour2025,
+  author    = {Salmanpour, Mohammad R. and Gorji, Arman and Mousavi, Amin and Fathi Jouzdani, Ali and Sanati, Nima and Maghsudi, Mehdi and Leung, Bonnie and Ho, Cheryl and Yuan, Ren and Rahmim, Arman},
+  journal   = {Cancers},
+  title     = {Enhanced Lung Cancer Survival Prediction Using Semi-Supervised Pseudo-Labeling and Learning from Diverse PET/CT Datasets},
+  year      = {2025},
+  issn      = {2072-6694},
+  month     = jan,
+  number    = {2},
+  pages     = {285},
+  volume    = {17},
+  doi       = {10.3390/cancers17020285},
+  file      = {:PDF/cancers-17-00285.pdf:PDF},
+  groups    = {Survival},
+  publisher = {MDPI AG},
+}
+
+@Article{Gatidis2022,
+  author    = {Gatidis, Sergios and Hepp, Tobias and Früh, Marcel and La Fougère, Christian and Nikolaou, Konstantin and Pfannenberg, Christina and Schölkopf, Bernhard and Küstner, Thomas and Cyran, Clemens and Rubin, Daniel},
+  journal   = {Scientific Data},
+  title     = {A whole-body FDG-PET/CT Dataset with manually annotated Tumor Lesions},
+  year      = {2022},
+  issn      = {2052-4463},
+  month     = oct,
+  number    = {1},
+  volume    = {9},
+  doi       = {10.1038/s41597-022-01718-3},
+  file      = {:PDF/s41597-022-01718-3.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{Oh2023,
+  author    = {Oh, Seungwon and Kang, Sae-Ryung and Oh, In-Jae and Kim, Min-Soo},
+  journal   = {BMC Bioinformatics},
+  title     = {Deep learning model integrating positron emission tomography and clinical data for prognosis prediction in non-small cell lung cancer patients},
+  year      = {2023},
+  issn      = {1471-2105},
+  month     = feb,
+  number    = {1},
+  volume    = {24},
+  doi       = {10.1186/s12859-023-05160-z},
+  file      = {:PDF/s12859-023-05160-z.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
+@Article{ValeSilva2021,
+  author    = {Vale-Silva, Luís A. and Rohr, Karl},
+  journal   = {Scientific Reports},
+  title     = {Long-term cancer survival prediction using multimodal deep learning},
+  year      = {2021},
+  issn      = {2045-2322},
+  month     = jun,
+  number    = {1},
+  volume    = {11},
+  doi       = {10.1038/s41598-021-92799-4},
+  file      = {:PDF/s41598-021-92799-4.pdf:PDF},
+  groups    = {Survival},
+  publisher = {Springer Science and Business Media LLC},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: fileDirectory-ruedell:/media/Morpho/Literatur;}
@@ -32608,28 +33187,32 @@ Historians have drawn a line between scientific racism, exemplified in the typol
 
 @Comment{jabref-meta: fileDirectory-schlager-schlager-TERRA-PC:/media/Morpho/Literatur;}
 
+@Comment{jabref-meta: fileDirectory-schlager-schlager-Terra-WS:/home/schlager/Documents/Publikationen/Literature/PDF;}
+
 @Comment{jabref-meta: fileDirectory-schlager-schlager-WS:/home/schlager/Documents/Publikationen/Literature;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
+1 StaticGroup:Torres Ellipses\;0\;1\;\;\;\;;
+1 StaticGroup:Radiomics\;0\;1\;\;\;\;;
+1 StaticGroup:Os Coxae Fossils\;0\;0\;\;\;\;;
 1 StaticGroup:Markings\;2\;1\;\;\;\;;
-2 StaticGroup:[schlager:]\;2\;1\;\;\;\;;
-2 StaticGroup:schlager:6\;2\;1\;\;\;\;;
 1 SearchGroup:land\;0\;landmark\;0\;0\;1\;\;\;\;;
-1 StaticGroup:Methods\;0\;0\;\;\;\;;
+1 StaticGroup:Methods\;0\;1\;\;\;\;;
 2 StaticGroup:Statistics\;0\;1\;\;\;\;;
 3 StaticGroup:Splines\;0\;1\;\;\;\;;
 3 StaticGroup:pls\;0\;1\;\;\;\;;
 3 StaticGroup:Machine Learning\;0\;1\;\;\;\;;
 3 StaticGroup:Shape Pjoject Freiburg Penn\;0\;1\;\;\;\;;
-2 StaticGroup:Landmarks\;0\;1\;\;\;\;;
+3 StaticGroup:Survival\;0\;1\;\;\;\;;
+2 StaticGroup:Landmarks\;0\;0\;\;\;\;;
 2 StaticGroup:Meshing\;0\;1\;\;\;\;;
 2 StaticGroup:Measurement error\;0\;1\;\;\;\;;
 2 StaticGroup:Math\;0\;1\;\;\;\;;
 2 StaticGroup:Crestlines\;0\;1\;\;\;\;;
 2 StaticGroup:EllipFA\;0\;1\;\;\;\;;
 2 KeywordGroup:FEA\;0\;keywords\;FEA\;0\;0\;1\;\;\;\;;
-2 KeywordGroup:Programming\;0\;keywords\;programming\;0\;0\;1\;\;\;\;;
+2 KeywordGroup:Programming\;0\;keywords\;programming\;0\;0\;0\;\;\;\;;
 3 KeywordGroup:R\;0\;keywords\;CRAN\;0\;0\;1\;\;\;\;;
 3 KeywordGroup:Python\;0\;keywords\;python\;0\;0\;1\;\;\;\;;
 3 KeywordGroup:C++\;0\;keywords\;C++\;0\;0\;1\;\;\;\;;
@@ -32637,16 +33220,18 @@ Historians have drawn a line between scientific racism, exemplified in the typol
 4 StaticGroup:MRI\;0\;1\;\;\;\;;
 5 StaticGroup:MRIbone\;0\;1\;\;\;\;;
 2 StaticGroup:3DScanning\;0\;1\;\;\;\;;
-1 StaticGroup:IntroductionIntoGM\;0\;1\;\;\;\;;
+2 StaticGroup:AI\;0\;1\;\;\;\;;
+2 StaticGroup:SSM\;0\;0\;\;\;\;;
+1 StaticGroup:IntroductionIntoGM\;0\;0\;\;\;\;;
 1 StaticGroup:Facial Reconstruction\;0\;0\;\;\;\;;
 2 StaticGroup:History\;0\;1\;\;\;\;;
 2 StaticGroup:Computerized facial reco\;0\;1\;\;\;\;;
 2 StaticGroup:StehendLiegend\;0\;1\;\;\;\;;
-1 StaticGroup:Historical lit\;0\;1\;\;\;\;;
+1 StaticGroup:Historical lit\;0\;0\;\;\;\;;
 1 KeywordGroup:Nase\;0\;keywords\;nose, Nose, Nase, nasal\;0\;0\;1\;\;\;\;;
-1 StaticGroup:Mandible\;0\;1\;\;\;\;;
+1 StaticGroup:Mandible\;0\;0\;\;\;\;;
 1 StaticGroup:Face Perception\;0\;1\;\;\;\;;
-1 StaticGroup:Alex\;2\;0\;\;\;\;;
+1 StaticGroup:Alex\;2\;1\;\;\;\;;
 2 StaticGroup:Orbita\;0\;1\;\;\;\;;
 3 StaticGroup:History Orbital reconstruction\;0\;1\;\;\;\;;
 3 StaticGroup:Clinical Lit Orbita\;0\;1\;\;\;\;;
@@ -32655,7 +33240,7 @@ Historians have drawn a line between scientific racism, exemplified in the typol
 3 StaticGroup:Orbita Population Affinity\;0\;1\;\;\;\;;
 3 StaticGroup:Orbita age\;0\;1\;\;\;\;;
 2 StaticGroup:Unread\;0\;1\;\;\;\;;
-2 StaticGroup:Eye\;0\;1\;\;\;\;;
+2 StaticGroup:Eye\;0\;0\;\;\;\;;
 3 StaticGroup:Eyecolor\;0\;1\;\;\;\;;
 3 StaticGroup:PalpebralFissure\;0\;1\;\;\;\;;
 3 StaticGroup:OpenEyes\;0\;1\;\;\;\;;
@@ -32696,4 +33281,5 @@ Historians have drawn a line between scientific racism, exemplified in the typol
 1 KeywordGroup:Scientific Writing\;0\;keywords\;SciWrite\;0\;0\;1\;0x8a8a8aff\;\;\;;
 1 StaticGroup:Projects\;0\;1\;0x8a8a8aff\;\;Literature collection project-wise\;;
 2 StaticGroup:2022 Cardini\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:Behavioral Biology\;0\;1\;0x8a8a8aff\;\;\;;
 }
